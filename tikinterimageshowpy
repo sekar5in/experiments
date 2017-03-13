@@ -28,9 +28,8 @@ class Window(Frame):
         file.add_command(label='SaveAs')
         file.add_command(label='Print')
         file.add_command(label='Convert')
-        file.add_command(label='Exit', command=self.client_exit)
+        file.add_command(label='Exit', command=self.client_Exit)
         menu.add_cascade(label='File', menu=file)
-
 
         edit = Menu(menu)
         edit.add_command(label='Show Image', command=self.showImg)
@@ -41,22 +40,18 @@ class Window(Frame):
         menu.add_cascade(label='Edit', menu=edit)
 
     def showImg(self):
-        load = Image.open('pic.png')
+        load = Image.open('pic.jpeg')
         render = ImageTk.PhotoImage(load)
-
         img = Label(self, image=render)
         img.image = render
-        img.place(x=0,y=0)
+        img.place(x=10, y=10)
 
     def showTxt(self):
         text = Label(self, text="Python Creative Logo")
+        text.pack()
 
-
-
-    def client_exit(self):
+    def client_Exit(self):
         exit()
-
-
 
 root = Tk()
 
