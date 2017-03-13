@@ -3,6 +3,7 @@
 # This is tkinter to use with button on frame.
 
 from tkinter import *
+from PIL import Image, ImageTk
 
 class Window(Frame):
 
@@ -32,12 +33,23 @@ class Window(Frame):
 
 
         edit = Menu(menu)
-        edit.add_command(label='Undo')
-        edit.add_command(label='Redo')
+        edit.add_command(label='Show Image', command=self.showImg)
+        edit.add_command(label='Show Text', command=self.showTxt)
         edit.add_command(label='Delete')
         edit.add_command(label='Find')
         edit.add_command(label='Findall')
         menu.add_cascade(label='Edit', menu=edit)
+
+    def showImg(self):
+        load = Image.open('pic.png')
+        render = ImageTk.PhotoImage(load)
+
+        img = Label(self, image=render)
+        img.image = render
+        img.place(x=0,y=0)
+
+    def showTxt(self):
+        text = Label(self, text="Python Creative Logo")
 
 
 
