@@ -23,8 +23,8 @@ def threader():
 
 q = Queue()
 
-for x in range (10):
-    t = threading.Thread(target = threader)
+for x in range(10):
+    t = threading.Thread(target=threader)
     t.daemon = True
     t.start()
 

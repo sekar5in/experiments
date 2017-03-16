@@ -21,10 +21,10 @@ def do_stuff(q):
 
 # Creating the Queue for Operations.
 for x in range(30):
-    print('Creating Queue of', x)
+    print('Putting Item in Queue', x)
     q.put(x)
 
-print('Successfully Created the Queues')
+print('Successfully Place items into Queues')
 
 for y in range(num_thread):
     worker = Thread(target=do_stuff, args=(q,))
