@@ -22,17 +22,19 @@ respData = resp.read()
 print(respData)
 '''
 
+def urlFetch(self):
+    try:
+
+        x = urllib.request.urlopen('http://www.lyricsopedia.com/search/label/Mariyaan')
+        print (x.read())
+
+    except Exception as e:
+        print(str(e))
+
+
 try:
-
-    x = urllib.request.urlopen('http://www.lyricsopedia.com/search/label/Mariyaan')
-    print (x.read())
-
-except Exception as e:
-    print(str(e))
-
-
-try:
-    url = 'https://www.google.com/search?q=test'
+    # url = 'https://www.google.com/search?q=test'
+    url = 'https://www.google.com/finance/info?q=NSE:TRIDENT'
     headers = {}
     headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
     req = urllib.request.Request(url,headers = headers)
