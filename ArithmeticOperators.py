@@ -1,5 +1,3 @@
-#!/usr/local/bin/python3
-
 # This script helps to find the usage of math operators.
 # + :   Addition
 # - :   Subtraction

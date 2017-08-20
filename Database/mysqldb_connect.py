@@ -7,10 +7,11 @@ import mysql.connector
 
 cnx = mysql.connector.connect(user='root', password='Passw0rd',
                               host='127.0.0.1',
-                              database='marketer')
+                              database='lop')
 
-c = cnx.cursor
-x = c.execute("SELECT * FROM users")
-print(x.fetchall())
+c = cnx.cursor()
+c.execute("SELECT * FROM loptamil")
+rel = c.fetchall()
+print(rel)
 c.close()
 cnx.close()
