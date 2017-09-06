@@ -10,5 +10,3 @@ dataString = "This is the test message to write into the file... Please ignore a
 saveFile = open('fileWrite.txt', 'w')
 saveFile.write(dataString)
 saveFile.close()
-
-
