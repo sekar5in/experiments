@@ -54,7 +54,7 @@ def videojson_Result(url):
     videodict = {'url': url, "urlEmbed": embed_url+object_id, 'title': videometa.title, 'description': videometa.description,
 
                  'media': 'youtube', 'videoInfo': {'id': videometa.videoid, 'mediaType': 'video', 'provider':'youtube'},
-                 'language': 'Tamil', 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
+                 'language': 'Hindi', 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
                  'thumbnail': video_thumb
                  }
 
@@ -64,7 +64,7 @@ def videojson_Result(url):
 
     # Print the data in json format
     #print(json_data)
-    return json_data
+    return json_data, object_id
 
 ######################################################################################
 # Method to Submit the json content into the URL using request library as POST method.
@@ -90,6 +90,8 @@ def urlPost(jsonData):
 #############################################################################################
 
 try:
+    # List Variable initialization
+    listUrl = []
     print("Program Started and is in progressing.....")
 
     # Open file for storing the result
@@ -102,19 +104,25 @@ try:
     for readUrlStr in readMe:
         readUrl = readUrlStr.strip()                # Remove the empty lines or space lines
         if readUrl:                                 # if line has string to proceed
-            jsonData = videojson_Result(readUrl)
-            statusCode = urlPost(jsonData)
 
-            if statusCode == 200:                   # Validate the submit url status as 200 (success)
-                print("Uploaded successfully : %s" % readUrl)
-                statusString = "Success"
-            else:                                   # incase of upload error
-                print("Failed : %s" % readUrl)
-                statusString = "Failed"
+            if any(readUrl in checkUrl for checkUrl in listUrl):
+                    print("Duplicate found : %s" % readUrl)
+                    statusString = "Duplicate"
+            else:
+                    listUrl.append(readUrl)                     # Adding the readUrl URL into the list variable listUrl to compare.
+                    jsonData, objectId = videojson_Result(readUrl)
+                    statusCode = urlPost(jsonData)
+
+                    if statusCode == 200:                   # Validate the submit url status as 200 (success)
+                        print("Uploaded successfully : %s" % readUrl)
+                        statusString = "Success"
+                    else:                                   # incase of upload error
+                        print("Failed : %s" % readUrl)
+                        statusString = "Failed"
 
             # Write the Status and URL into the urlStatus file.
             statusString = str(statusString) + " : " + str(readUrl)
-            status.write(statusString)
+            status.write(statusString + '\n')
 
     # close the status file.
     status.close()
