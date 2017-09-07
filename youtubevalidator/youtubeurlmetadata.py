@@ -54,7 +54,7 @@ def videojson_Result(url):
     videodict = {'url': url, "urlEmbed": embed_url+object_id, 'title': videometa.title, 'description': videometa.description,
 
                  'media': 'youtube', 'videoInfo': {'id': videometa.videoid, 'mediaType': 'video', 'provider':'youtube'},
-                 'language': 'Hindi', 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
+                 'language': 'Kannada', 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
                  'thumbnail': video_thumb
                  }
 
