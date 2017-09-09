@@ -12,7 +12,7 @@
 import pafy
 import json
 import requests
-
+from webPriviwdbFilter import querySet
 #############################################################################################################
 # Method to fetch youtube url metadata information in json result. Like Title, url, description, videoid
 # and some default values like urlEmbed, Tags, authorid and list as json result as below example output.
@@ -37,9 +37,10 @@ import requests
 }
 '''
 
-def videojson_Result(url):
 
-    # Empty dict
+def videojson_Result(url, language):
+
+    # InitiEmpty dict
     videodict = {}
 
     # variable assignments
@@ -54,10 +55,9 @@ def videojson_Result(url):
     videodict = {'url': url, "urlEmbed": embed_url+object_id, 'title': videometa.title, 'description': videometa.description,
 
                  'media': 'youtube', 'videoInfo': {'id': videometa.videoid, 'mediaType': 'video', 'provider':'youtube'},
-                 'language': 'Kannada', 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
+                 'language': language, 'type': 'Song', 'tags': 'JukeBox,OnlyCollection', 'authorId': '59589025e96d3a4182c007f6',
                  'thumbnail': video_thumb
                  }
-
 
     # Convert the python dict into json format with indent of 4 spaces by avoiding ascii character
     json_data = json.dumps(videodict, indent=4, ensure_ascii=False)
@@ -69,6 +69,7 @@ def videojson_Result(url):
 ######################################################################################
 # Method to Submit the json content into the URL using request library as POST method.
 #######################################################################################
+
 
 def urlPost(jsonData):
 
@@ -90,9 +91,20 @@ def urlPost(jsonData):
 #############################################################################################
 
 try:
-    # List Variable initialization
-    listUrl = []
-    print("Program Started and is in progressing.....")
+    # Language Selection
+    # Tamil  | Kannada | Telugu | Hindi | Malayalam | English
+    lang = "Hindi"
+
+    # Database query intialization
+    print("Querying the Database Started.\n")
+    # Variable initialization
+    listUrl = querySet("Song", lang, ".*JukeBox.*")
+
+    # Database query intialization
+    print("Querying the Database Completed.\n")
+
+    # initialization of Main Program
+    print("Program Started and in progressing.....\n")
 
     # Open file for storing the result
     status = open('urlStatus.txt', 'a')
@@ -110,7 +122,7 @@ try:
                     statusString = "Duplicate"
             else:
                     listUrl.append(readUrl)                     # Adding the readUrl URL into the list variable listUrl to compare.
-                    jsonData, objectId = videojson_Result(readUrl)
+                    jsonData, objectId = videojson_Result(readUrl, lang)      #
                     statusCode = urlPost(jsonData)
 
                     if statusCode == 200:                   # Validate the submit url status as 200 (success)
