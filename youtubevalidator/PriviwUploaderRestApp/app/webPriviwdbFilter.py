@@ -23,12 +23,11 @@ def querySet(reqType, reqLanguage, reqRegEx):
     priviwLanguage = reqLanguage
     priviwRegEx = reqRegEx
 
-    url = 'http://web.priviw.com:3000/api/videos?filter={"where" : {"type" : "' + priviwType + '", "language" : "' + priviwLanguage +'" ,"tags" : { "regexp": "' + priviwRegEx + '"} } }'
+    url = 'http://web.priviw.com:3000/api/videos?filter={"where" : {"type" : "' + priviwType + '", "language" : "' + priviwLanguage + '" ,"tags" : { "regexp": "' + priviwRegEx + '"} } }'
 
     req = requests.get(url).json()
     for url in req:
         resList.append(url['url'])
-
     return resList
 
 '''

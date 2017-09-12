@@ -1,3 +1,5 @@
+# -*- coding: utf8 -*-
+
 # This is script is used to generate metadata information of the youtube URL video as json output.
 # and submit the json result to application url as post method to insert into the database.
 # Author : Dhanasekara Pandian
