@@ -1,0 +1,1020 @@
+[Sep 30 19:24:00.447] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 19:24:00.448] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 19:24:00.448] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 19:24:00.571] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 19:24:00.573] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 19:24:00.573] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 19:24:00.658] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 19:24:00.659] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 19:24:00.659] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 19:24:00.659] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Sep 30 20:21:30.134] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 20:21:30.149] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 20:21:30.149] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 20:21:30.354] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 20:21:30.355] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 20:21:30.355] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 20:21:30.393] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 20:21:30.395] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 20:21:30.395] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 20:21:30.395] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Sep 30 23:30:51.987] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 23:30:52.034] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 23:30:52.034] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 23:30:52.104] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 23:30:52.105] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 23:30:52.105] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 23:30:52.113] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 23:30:52.113] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 23:30:52.113] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 23:30:52.113] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Sep 30 23:36:49.543] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 23:36:49.543] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 23:36:49.543] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 23:36:49.637] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 23:36:49.637] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 23:36:49.637] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 23:36:49.699] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 23:36:49.699] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 23:36:49.699] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 23:36:49.699] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Sep 30 23:40:35.479] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 23:40:35.492] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 23:40:35.492] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 23:40:36.130] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 23:40:36.130] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 23:40:36.130] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 23:40:36.138] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 23:40:36.138] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 23:40:36.138] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 23:40:36.138] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Sep 30 23:54:06.113] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Sep 30 23:54:06.113] [ message] [vmusr] Core dump limit set to -1
+[Sep 30 23:54:06.113] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Sep 30 23:54:06.184] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Sep 30 23:54:06.184] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Sep 30 23:54:06.184] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Sep 30 23:54:06.195] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Sep 30 23:54:06.195] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Sep 30 23:54:06.195] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Sep 30 23:54:06.195] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 01 00:28:45.113] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 01 00:28:45.127] [ message] [vmusr] Core dump limit set to -1
+[Oct 01 00:28:45.128] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 01 00:28:46.012] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 01 00:28:46.012] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 01 00:28:46.012] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 01 00:28:46.023] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 01 00:28:46.023] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 01 00:28:46.023] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 01 00:28:46.023] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 01 01:13:52.541] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 01 01:13:52.553] [ message] [vmusr] Core dump limit set to -1
+[Oct 01 01:13:52.554] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 01 01:13:53.378] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 01 01:13:53.378] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 01 01:13:53.378] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 01 01:13:53.382] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 01 01:13:53.382] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 01 01:13:53.382] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 01 01:13:53.382] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 01 01:34:24.082] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 01 01:34:24.088] [ message] [vmusr] Core dump limit set to -1
+[Oct 01 01:34:24.088] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 01 01:34:24.441] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 01 01:34:24.441] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 01 01:34:24.441] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 01 01:34:24.453] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 01 01:34:24.453] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 01 01:34:24.453] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 01 01:34:24.453] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 01 09:03:10.059] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 01 09:03:10.080] [ message] [vmusr] Core dump limit set to -1
+[Oct 01 09:03:10.080] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 01 09:03:10.831] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 01 09:03:10.831] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 01 09:03:10.831] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 01 09:03:10.842] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 01 09:03:10.842] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 01 09:03:10.842] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 01 09:03:10.842] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 01 11:26:49.734] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 01 11:26:49.784] [ message] [vmusr] Core dump limit set to -1
+[Oct 01 11:26:49.784] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 01 11:26:49.920] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 01 11:26:49.920] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 01 11:26:49.920] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 01 11:26:49.960] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 01 11:26:49.963] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 01 11:26:49.963] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 01 11:26:49.963] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 02 12:52:55.863] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 02 12:52:55.902] [ message] [vmusr] Core dump limit set to -1
+[Oct 02 12:52:55.902] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 02 12:52:55.939] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 02 12:52:55.939] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 02 12:52:55.939] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 02 12:52:55.948] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 02 12:52:55.948] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 02 12:52:55.948] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 02 12:52:55.948] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 02 14:49:56.408] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 02 14:49:56.423] [ message] [vmusr] Core dump limit set to -1
+[Oct 02 14:49:56.423] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 02 14:49:56.940] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 02 14:49:56.940] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 02 14:49:56.940] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 02 14:49:56.949] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 02 14:49:56.949] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 02 14:49:56.949] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 02 14:49:56.949] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 03 11:35:32.320] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 03 11:35:32.325] [ message] [vmusr] Core dump limit set to -1
+[Oct 03 11:35:32.325] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 03 11:35:32.723] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 03 11:35:32.723] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 03 11:35:32.723] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 03 11:35:32.733] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 03 11:35:32.733] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 03 11:35:32.733] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 03 11:35:32.733] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 04 07:23:52.648] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 04 07:23:52.652] [ message] [vmusr] Core dump limit set to -1
+[Oct 04 07:23:52.652] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 04 07:23:53.045] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 04 07:23:53.045] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 04 07:23:53.045] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 04 07:23:53.052] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 04 07:23:53.052] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 04 07:23:53.052] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 04 07:23:53.052] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 05 10:16:23.050] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 05 10:16:23.051] [ message] [vmusr] Core dump limit set to -1
+[Oct 05 10:16:23.051] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 05 10:16:23.091] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 05 10:16:23.091] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 05 10:16:23.091] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 05 10:16:23.102] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 05 10:16:23.102] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 05 10:16:23.102] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 05 10:16:23.102] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 07 15:47:23.710] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 07 15:47:23.719] [ message] [vmusr] Core dump limit set to -1
+[Oct 07 15:47:23.719] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 07 15:47:24.176] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 07 15:47:24.176] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 07 15:47:24.176] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 07 15:47:24.186] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 07 15:47:24.186] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 07 15:47:24.186] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 07 15:47:24.186] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 08 12:19:05.219] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 08 12:19:05.228] [ message] [vmusr] Core dump limit set to -1
+[Oct 08 12:19:05.228] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 08 12:19:05.788] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 08 12:19:05.789] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 08 12:19:05.789] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 08 12:19:05.793] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 08 12:19:05.794] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 08 12:19:05.794] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 08 12:19:05.794] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 10 16:30:04.205] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 10 16:30:04.224] [ message] [vmusr] Core dump limit set to -1
+[Oct 10 16:30:04.224] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 10 16:30:04.924] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 10 16:30:04.924] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 10 16:30:04.924] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 10 16:30:04.933] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 10 16:30:04.934] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 10 16:30:04.934] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 10 16:30:04.934] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 13 10:09:24.393] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 13 10:09:24.401] [ message] [vmusr] Core dump limit set to -1
+[Oct 13 10:09:24.401] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 13 10:09:24.966] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 13 10:09:24.966] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 13 10:09:24.966] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 13 10:09:24.975] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 13 10:09:24.975] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 13 10:09:24.975] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 13 10:09:24.975] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 16 08:34:40.713] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 16 08:34:40.722] [ message] [vmusr] Core dump limit set to -1
+[Oct 16 08:34:40.722] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 16 08:34:41.348] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 16 08:34:41.348] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 16 08:34:41.348] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 16 08:34:41.353] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 16 08:34:41.353] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 16 08:34:41.353] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 16 08:34:41.353] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 18 21:10:01.485] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 18 21:10:01.485] [ message] [vmusr] Core dump limit set to -1
+[Oct 18 21:10:01.485] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 18 21:10:01.533] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 18 21:10:01.533] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 18 21:10:01.533] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 18 21:10:01.539] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 18 21:10:01.539] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 18 21:10:01.539] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 18 21:10:01.539] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 20 09:16:12.697] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 20 09:16:12.707] [ message] [vmusr] Core dump limit set to -1
+[Oct 20 09:16:12.707] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 20 09:16:13.121] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 20 09:16:13.121] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 20 09:16:13.121] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 20 09:16:13.127] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 20 09:16:13.127] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 20 09:16:13.127] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 20 09:16:13.127] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 22 20:12:00.126] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 22 20:12:00.127] [ message] [vmusr] Core dump limit set to -1
+[Oct 22 20:12:00.127] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 22 20:12:00.191] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 22 20:12:00.191] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 22 20:12:00.191] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 22 20:12:00.198] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 22 20:12:00.198] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 22 20:12:00.198] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 22 20:12:00.198] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 23 07:19:33.484] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 23 07:19:33.496] [ message] [vmusr] Core dump limit set to -1
+[Oct 23 07:19:33.496] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 23 07:19:33.948] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 23 07:19:33.948] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 23 07:19:33.948] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 23 07:19:33.953] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 23 07:19:33.953] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 23 07:19:33.953] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 23 07:19:33.953] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 24 19:14:55.753] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 24 19:14:55.753] [ message] [vmusr] Core dump limit set to -1
+[Oct 24 19:14:55.753] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 24 19:14:55.813] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 24 19:14:55.813] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 24 19:14:55.813] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 24 19:14:55.825] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 24 19:14:55.826] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 24 19:14:55.826] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 24 19:14:55.826] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 25 07:47:28.387] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 25 07:47:28.387] [ message] [vmusr] Core dump limit set to -1
+[Oct 25 07:47:28.387] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 25 07:47:28.443] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 25 07:47:28.443] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 25 07:47:28.443] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 25 07:47:28.449] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 25 07:47:28.449] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 25 07:47:28.449] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 25 07:47:28.449] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 26 14:10:49.337] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 26 14:10:49.338] [ message] [vmusr] Core dump limit set to -1
+[Oct 26 14:10:49.338] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 26 14:10:49.415] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 26 14:10:49.415] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 26 14:10:49.415] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 26 14:10:49.429] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 26 14:10:49.430] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 26 14:10:49.430] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 26 14:10:49.430] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 26 14:48:51.623] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 26 14:48:51.623] [ message] [vmusr] Core dump limit set to -1
+[Oct 26 14:48:51.623] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 26 14:48:51.678] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 26 14:48:51.678] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 26 14:48:51.678] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 26 14:48:51.694] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 26 14:48:51.694] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 26 14:48:51.694] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 26 14:48:51.694] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 28 10:23:02.078] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 28 10:23:02.090] [ message] [vmusr] Core dump limit set to -1
+[Oct 28 10:23:02.090] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 28 10:23:02.558] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 28 10:23:02.558] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 28 10:23:02.558] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 28 10:23:02.570] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 28 10:23:02.570] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 28 10:23:02.570] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 28 10:23:02.570] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 28 10:48:10.082] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 28 10:48:10.089] [ message] [vmusr] Core dump limit set to -1
+[Oct 28 10:48:10.089] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 28 10:48:10.532] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 28 10:48:10.532] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 28 10:48:10.532] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 28 10:48:10.537] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 28 10:48:10.537] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 28 10:48:10.537] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 28 10:48:10.537] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Oct 29 23:21:35.693] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Oct 29 23:21:35.699] [ message] [vmusr] Core dump limit set to -1
+[Oct 29 23:21:35.700] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Oct 29 23:21:36.175] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Oct 29 23:21:36.175] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Oct 29 23:21:36.175] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Oct 29 23:21:36.184] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Oct 29 23:21:36.184] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Oct 29 23:21:36.184] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Oct 29 23:21:36.184] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 03 12:51:21.585] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 03 12:51:21.594] [ message] [vmusr] Core dump limit set to -1
+[Nov 03 12:51:21.594] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 03 12:51:22.605] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 03 12:51:22.605] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 03 12:51:22.605] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 03 12:51:22.610] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 03 12:51:22.610] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 03 12:51:22.610] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 03 12:51:22.610] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 06 06:46:27.338] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 06 06:46:27.346] [ message] [vmusr] Core dump limit set to -1
+[Nov 06 06:46:27.346] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 06 06:46:27.855] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 06 06:46:27.855] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 06 06:46:27.855] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 06 06:46:27.862] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 06 06:46:27.863] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 06 06:46:27.863] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 06 06:46:27.863] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 07 15:46:08.146] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 07 15:46:08.154] [ message] [vmusr] Core dump limit set to -1
+[Nov 07 15:46:08.154] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 07 15:46:08.660] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 07 15:46:08.660] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 07 15:46:08.660] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 07 15:46:08.671] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 07 15:46:08.671] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 07 15:46:08.671] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 07 15:46:08.671] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 08 16:13:16.725] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 08 16:13:16.727] [ message] [vmusr] Core dump limit set to -1
+[Nov 08 16:13:16.727] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 08 16:13:17.068] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 08 16:13:17.068] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 08 16:13:17.071] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 08 16:13:17.158] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 08 16:13:17.158] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 08 16:13:17.159] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 08 16:13:17.159] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 09 02:54:17.620] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 09 02:54:17.620] [ message] [vmusr] Core dump limit set to -1
+[Nov 09 02:54:17.620] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 09 02:54:17.673] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 09 02:54:17.673] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 09 02:54:17.673] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 09 02:54:17.685] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 09 02:54:17.685] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 09 02:54:17.687] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 09 02:54:17.687] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 09 23:35:00.937] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 09 23:35:00.944] [ message] [vmusr] Core dump limit set to -1
+[Nov 09 23:35:00.945] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 09 23:35:01.333] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 09 23:35:01.334] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 09 23:35:01.334] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 09 23:35:01.342] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 09 23:35:01.342] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 09 23:35:01.342] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 09 23:35:01.342] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 10 15:42:10.940] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 10 15:42:10.947] [ message] [vmusr] Core dump limit set to -1
+[Nov 10 15:42:10.947] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 10 15:42:11.473] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 10 15:42:11.473] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 10 15:42:11.473] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 10 15:42:11.494] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 10 15:42:11.494] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 10 15:42:11.494] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 10 15:42:11.494] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 11 16:36:32.265] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 11 16:36:32.266] [ message] [vmusr] Core dump limit set to -1
+[Nov 11 16:36:32.266] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 11 16:36:32.377] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 11 16:36:32.377] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 11 16:36:32.377] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 11 16:36:32.396] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 11 16:36:32.396] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 11 16:36:32.396] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 11 16:36:32.396] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 11 16:42:09.347] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 11 16:42:09.348] [ message] [vmusr] Core dump limit set to -1
+[Nov 11 16:42:09.348] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 11 16:42:09.417] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 11 16:42:09.417] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 11 16:42:09.417] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 11 16:42:09.429] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 11 16:42:09.429] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 11 16:42:09.429] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 11 16:42:09.429] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 11 23:42:03.325] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 11 23:42:03.326] [ message] [vmusr] Core dump limit set to -1
+[Nov 11 23:42:03.326] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 11 23:42:03.397] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 11 23:42:03.397] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 11 23:42:03.397] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 11 23:42:03.405] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 11 23:42:03.406] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 11 23:42:03.406] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 11 23:42:03.406] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 13 15:54:08.130] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 13 15:54:08.131] [ message] [vmusr] Core dump limit set to -1
+[Nov 13 15:54:08.131] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 13 15:54:08.203] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 13 15:54:08.203] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 13 15:54:08.203] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 13 15:54:08.213] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 13 15:54:08.213] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 13 15:54:08.213] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 13 15:54:08.213] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 14 15:47:29.045] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 14 15:47:29.046] [ message] [vmusr] Core dump limit set to -1
+[Nov 14 15:47:29.046] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 14 15:47:29.110] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 14 15:47:29.110] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 14 15:47:29.110] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 14 15:47:29.124] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 14 15:47:29.124] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 14 15:47:29.124] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 14 15:47:29.124] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 15 16:39:22.713] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 15 16:39:22.714] [ message] [vmusr] Core dump limit set to -1
+[Nov 15 16:39:22.714] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 15 16:39:22.770] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 15 16:39:22.770] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 15 16:39:22.770] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 15 16:39:22.789] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 15 16:39:22.789] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 15 16:39:22.789] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 15 16:39:22.789] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 17 16:01:53.577] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 17 16:01:53.577] [ message] [vmusr] Core dump limit set to -1
+[Nov 17 16:01:53.577] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 17 16:01:53.635] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 17 16:01:53.636] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 17 16:01:53.636] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 17 16:01:53.660] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 17 16:01:53.660] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 17 16:01:53.660] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 17 16:01:53.660] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 19 11:42:42.143] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 19 11:42:42.150] [ message] [vmusr] Core dump limit set to -1
+[Nov 19 11:42:42.150] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 19 11:42:42.621] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 19 11:42:42.621] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 19 11:42:42.621] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 19 11:42:42.629] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 19 11:42:42.629] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 19 11:42:42.629] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 19 11:42:42.629] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 20 18:59:14.745] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 20 18:59:14.753] [ message] [vmusr] Core dump limit set to -1
+[Nov 20 18:59:14.753] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 20 18:59:15.287] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 20 18:59:15.287] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 20 18:59:15.287] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 20 18:59:15.298] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 20 18:59:15.298] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 20 18:59:15.298] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 20 18:59:15.298] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 23 18:31:59.072] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 23 18:31:59.077] [ message] [vmusr] Core dump limit set to -1
+[Nov 23 18:31:59.077] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 23 18:31:59.803] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 23 18:31:59.803] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 23 18:31:59.803] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 23 18:31:59.807] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 23 18:31:59.807] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 23 18:31:59.807] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 23 18:31:59.807] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 25 19:54:52.196] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 25 19:54:52.201] [ message] [vmusr] Core dump limit set to -1
+[Nov 25 19:54:52.201] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 25 19:54:52.639] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 25 19:54:52.639] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 25 19:54:52.639] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 25 19:54:52.647] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 25 19:54:52.647] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 25 19:54:52.647] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 25 19:54:52.647] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 27 16:15:02.290] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 27 16:15:02.292] [ message] [vmusr] Core dump limit set to -1
+[Nov 27 16:15:02.292] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 27 16:15:02.368] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 27 16:15:02.368] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 27 16:15:02.369] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 27 16:15:02.385] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 27 16:15:02.385] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 27 16:15:02.385] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 27 16:15:02.385] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 28 15:45:31.766] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 28 15:45:31.766] [ message] [vmusr] Core dump limit set to -1
+[Nov 28 15:45:31.766] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 28 15:45:31.825] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 28 15:45:31.826] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 28 15:45:31.826] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 28 15:45:31.832] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 28 15:45:31.832] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 28 15:45:31.832] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 28 15:45:31.832] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 29 16:34:07.208] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 29 16:34:07.214] [ message] [vmusr] Core dump limit set to -1
+[Nov 29 16:34:07.214] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 29 16:34:07.773] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 29 16:34:07.774] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 29 16:34:07.774] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 29 16:34:07.781] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 29 16:34:07.781] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 29 16:34:07.781] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 29 16:34:07.781] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Nov 30 21:42:33.817] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Nov 30 21:42:33.823] [ message] [vmusr] Core dump limit set to -1
+[Nov 30 21:42:33.823] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Nov 30 21:42:34.366] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Nov 30 21:42:34.366] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Nov 30 21:42:34.366] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Nov 30 21:42:34.378] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Nov 30 21:42:34.378] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Nov 30 21:42:34.378] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Nov 30 21:42:34.378] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 01 06:59:25.466] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 01 06:59:25.467] [ message] [vmusr] Core dump limit set to -1
+[Dec 01 06:59:25.467] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 01 06:59:25.530] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 01 06:59:25.530] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 01 06:59:25.530] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 01 06:59:25.539] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 01 06:59:25.539] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 01 06:59:25.539] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 01 06:59:25.539] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 15 20:02:28.083] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 15 20:02:28.084] [ message] [vmusr] Core dump limit set to -1
+[Dec 15 20:02:28.084] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 15 20:02:28.153] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 15 20:02:28.153] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 15 20:02:28.153] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 15 20:02:28.166] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 15 20:02:28.166] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 15 20:02:28.166] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 15 20:02:28.166] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 16 16:03:42.118] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 16 16:03:42.123] [ message] [vmusr] Core dump limit set to -1
+[Dec 16 16:03:42.123] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 16 16:03:42.837] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 16 16:03:42.837] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 16 16:03:42.837] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 16 16:03:42.844] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 16 16:03:42.844] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 16 16:03:42.844] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 16 16:03:42.844] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 21 07:14:45.333] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 21 07:14:45.333] [ message] [vmusr] Core dump limit set to -1
+[Dec 21 07:14:45.334] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 21 07:14:45.392] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 21 07:14:45.392] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 21 07:14:45.392] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 21 07:14:45.404] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 21 07:14:45.404] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 21 07:14:45.404] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 21 07:14:45.404] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 21 12:03:57.823] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 21 12:03:57.829] [ message] [vmusr] Core dump limit set to -1
+[Dec 21 12:03:57.829] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 21 12:03:58.278] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 21 12:03:58.279] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 21 12:03:58.279] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 21 12:03:58.308] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 21 12:03:58.308] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 21 12:03:58.308] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 21 12:03:58.308] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 24 08:18:22.647] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 24 08:18:22.655] [ message] [vmusr] Core dump limit set to -1
+[Dec 24 08:18:22.655] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 24 08:18:23.138] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 24 08:18:23.138] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 24 08:18:23.138] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 24 08:18:23.146] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 24 08:18:23.146] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 24 08:18:23.146] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 24 08:18:23.146] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 24 08:47:31.115] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 24 08:47:31.121] [ message] [vmusr] Core dump limit set to -1
+[Dec 24 08:47:31.121] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 24 08:47:31.556] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 24 08:47:31.557] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 24 08:47:31.557] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 24 08:47:31.565] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 24 08:47:31.566] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 24 08:47:31.566] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 24 08:47:31.566] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 27 11:14:53.539] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 27 11:14:53.545] [ message] [vmusr] Core dump limit set to -1
+[Dec 27 11:14:53.546] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 27 11:14:53.914] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 27 11:14:53.916] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 27 11:14:53.916] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 27 11:14:53.925] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 27 11:14:53.925] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 27 11:14:53.925] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 27 11:14:53.925] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Dec 31 08:29:38.098] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Dec 31 08:29:38.116] [ message] [vmusr] Core dump limit set to -1
+[Dec 31 08:29:38.116] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Dec 31 08:29:38.497] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Dec 31 08:29:38.497] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Dec 31 08:29:38.497] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Dec 31 08:29:38.502] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Dec 31 08:29:38.502] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Dec 31 08:29:38.502] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Dec 31 08:29:38.502] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 03 17:49:04.292] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 03 17:49:04.298] [ message] [vmusr] Core dump limit set to -1
+[Jan 03 17:49:04.298] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 03 17:49:04.715] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 03 17:49:04.715] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 03 17:49:04.715] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 03 17:49:04.728] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 03 17:49:04.728] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 03 17:49:04.728] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 03 17:49:04.728] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 08 15:03:50.995] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 08 15:03:50.996] [ message] [vmusr] Core dump limit set to -1
+[Jan 08 15:03:50.996] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 08 15:03:51.042] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 08 15:03:51.042] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 08 15:03:51.042] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 08 15:03:51.055] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 08 15:03:51.055] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 08 15:03:51.055] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 08 15:03:51.055] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 08 15:36:04.997] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 08 15:36:04.998] [ message] [vmusr] Core dump limit set to -1
+[Jan 08 15:36:04.998] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 08 15:36:05.060] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 08 15:36:05.060] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 08 15:36:05.060] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 08 15:36:05.103] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 08 15:36:05.103] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 08 15:36:05.103] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 08 15:36:05.103] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 08 16:41:17.207] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 08 16:41:17.216] [ message] [vmusr] Core dump limit set to -1
+[Jan 08 16:41:17.216] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 08 16:41:17.772] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 08 16:41:17.772] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 08 16:41:17.772] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 08 16:41:17.779] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 08 16:41:17.779] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 08 16:41:17.779] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 08 16:41:17.779] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 08 17:09:34.641] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 08 17:09:34.648] [ message] [vmusr] Core dump limit set to -1
+[Jan 08 17:09:34.650] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 08 17:09:35.065] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 08 17:09:35.066] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 08 17:09:35.066] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 08 17:09:35.074] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 08 17:09:35.074] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 08 17:09:35.074] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 08 17:09:35.074] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 09 18:12:32.618] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 09 18:12:32.618] [ message] [vmusr] Core dump limit set to -1
+[Jan 09 18:12:32.618] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 09 18:12:32.683] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 09 18:12:32.683] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 09 18:12:32.683] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 09 18:12:32.691] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 09 18:12:32.692] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 09 18:12:32.692] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 09 18:12:32.692] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 09 19:02:07.807] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 09 19:02:07.813] [ message] [vmusr] Core dump limit set to -1
+[Jan 09 19:02:07.813] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 09 19:02:08.517] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 09 19:02:08.517] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 09 19:02:08.517] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 09 19:02:08.531] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 09 19:02:08.531] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 09 19:02:08.531] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 09 19:02:08.531] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 12 19:45:41.901] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 12 19:45:41.906] [ message] [vmusr] Core dump limit set to -1
+[Jan 12 19:45:41.906] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 12 19:45:42.457] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 12 19:45:42.457] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 12 19:45:42.457] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 12 19:45:42.465] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 12 19:45:42.465] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 12 19:45:42.465] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 12 19:45:42.465] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 17 12:09:58.115] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 17 12:09:58.116] [ message] [vmusr] Core dump limit set to -1
+[Jan 17 12:09:58.116] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 17 12:09:58.173] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 17 12:09:58.173] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 17 12:09:58.173] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 17 12:09:58.181] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 17 12:09:58.182] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 17 12:09:58.182] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 17 12:09:58.182] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 18 15:32:02.449] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 18 15:32:02.461] [ message] [vmusr] Core dump limit set to -1
+[Jan 18 15:32:02.461] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 18 15:32:02.868] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 18 15:32:02.868] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 18 15:32:02.868] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 18 15:32:02.879] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 18 15:32:02.879] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 18 15:32:02.879] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 18 15:32:02.879] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 20 21:45:20.649] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 20 21:45:20.655] [ message] [vmusr] Core dump limit set to -1
+[Jan 20 21:45:20.655] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 20 21:45:21.349] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 20 21:45:21.349] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 20 21:45:21.349] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 20 21:45:21.368] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 20 21:45:21.368] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 20 21:45:21.368] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 20 21:45:21.368] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 22 22:46:44.451] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 22 22:46:44.457] [ message] [vmusr] Core dump limit set to -1
+[Jan 22 22:46:44.457] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 22 22:46:44.865] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 22 22:46:44.865] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 22 22:46:44.865] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 22 22:46:44.876] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 22 22:46:44.876] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 22 22:46:44.876] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 22 22:46:44.876] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 23 16:23:00.908] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 23 16:23:00.909] [ message] [vmusr] Core dump limit set to -1
+[Jan 23 16:23:00.909] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 23 16:23:00.969] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 23 16:23:00.969] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 23 16:23:00.969] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 23 16:23:00.984] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 23 16:23:00.984] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 23 16:23:00.984] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 23 16:23:00.984] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 24 18:23:27.463] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 24 18:23:27.471] [ message] [vmusr] Core dump limit set to -1
+[Jan 24 18:23:27.471] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 24 18:23:27.921] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 24 18:23:27.921] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 24 18:23:27.921] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 24 18:23:27.933] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 24 18:23:27.933] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 24 18:23:27.933] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 24 18:23:27.933] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Jan 29 15:38:06.125] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Jan 29 15:38:06.139] [ message] [vmusr] Core dump limit set to -1
+[Jan 29 15:38:06.139] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Jan 29 15:38:06.787] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Jan 29 15:38:06.787] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Jan 29 15:38:06.787] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Jan 29 15:38:06.792] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Jan 29 15:38:06.793] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Jan 29 15:38:06.793] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Jan 29 15:38:06.793] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 01 08:18:57.856] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 01 08:18:57.857] [ message] [vmusr] Core dump limit set to -1
+[Feb 01 08:18:57.857] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 01 08:18:57.921] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 01 08:18:57.921] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 01 08:18:57.921] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 01 08:18:57.939] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 01 08:18:57.941] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 01 08:18:57.941] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 01 08:18:57.941] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 03 19:25:45.533] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 03 19:25:45.543] [ message] [vmusr] Core dump limit set to -1
+[Feb 03 19:25:45.543] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 03 19:25:46.156] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 03 19:25:46.156] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 03 19:25:46.156] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 03 19:25:46.161] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 03 19:25:46.161] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 03 19:25:46.161] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 03 19:25:46.161] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 04 16:28:25.432] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 04 16:28:25.432] [ message] [vmusr] Core dump limit set to -1
+[Feb 04 16:28:25.432] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 04 16:28:25.483] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 04 16:28:25.483] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 04 16:28:25.483] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 04 16:28:25.496] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 04 16:28:25.496] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 04 16:28:25.496] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 04 16:28:25.496] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 17 21:30:20.399] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 17 21:30:20.399] [ message] [vmusr] Core dump limit set to -1
+[Feb 17 21:30:20.399] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 17 21:30:20.458] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 17 21:30:20.458] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 17 21:30:20.458] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 17 21:30:20.481] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 17 21:30:20.481] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 17 21:30:20.481] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 17 21:30:20.481] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 19 19:57:51.343] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 19 19:57:51.351] [ message] [vmusr] Core dump limit set to -1
+[Feb 19 19:57:51.351] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 19 19:57:51.946] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 19 19:57:51.946] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 19 19:57:51.946] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 19 19:57:51.955] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 19 19:57:51.956] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 19 19:57:51.956] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 19 19:57:51.956] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 20 08:14:56.410] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 20 08:14:56.410] [ message] [vmusr] Core dump limit set to -1
+[Feb 20 08:14:56.410] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 20 08:14:56.481] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 20 08:14:56.481] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 20 08:14:56.481] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 20 08:14:56.495] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 20 08:14:56.495] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 20 08:14:56.497] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 20 08:14:56.497] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 20 12:57:47.241] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 20 12:57:47.274] [ message] [vmusr] Core dump limit set to -1
+[Feb 20 12:57:47.274] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 20 12:57:47.693] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 20 12:57:47.693] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 20 12:57:47.693] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 20 12:57:47.709] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 20 12:57:47.709] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 20 12:57:47.709] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 20 12:57:47.709] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 22 14:28:56.563] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 22 14:28:56.573] [ message] [vmusr] Core dump limit set to -1
+[Feb 22 14:28:56.573] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 22 14:28:57.700] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 22 14:28:57.700] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 22 14:28:57.700] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 22 14:28:57.706] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 22 14:28:57.706] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 22 14:28:57.706] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 22 14:28:57.706] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Feb 23 06:54:44.597] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Feb 23 06:54:44.605] [ message] [vmusr] Core dump limit set to -1
+[Feb 23 06:54:44.605] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Feb 23 06:54:44.674] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Feb 23 06:54:44.674] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Feb 23 06:54:44.674] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Feb 23 06:54:44.686] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Feb 23 06:54:44.686] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Feb 23 06:54:44.686] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Feb 23 06:54:44.686] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 04 22:46:23.773] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 04 22:46:23.782] [ message] [vmusr] Core dump limit set to -1
+[Mar 04 22:46:23.782] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 04 22:46:24.338] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 04 22:46:24.338] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 04 22:46:24.338] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 04 22:46:24.342] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 04 22:46:24.342] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 04 22:46:24.342] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 04 22:46:24.342] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 07 22:35:34.679] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 07 22:35:34.706] [ message] [vmusr] Core dump limit set to -1
+[Mar 07 22:35:34.706] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 07 22:35:35.147] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 07 22:35:35.147] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 07 22:35:35.147] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 07 22:35:35.155] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 07 22:35:35.155] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 07 22:35:35.155] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 07 22:35:35.155] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 08 17:25:33.133] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 08 17:25:33.149] [ message] [vmusr] Core dump limit set to -1
+[Mar 08 17:25:33.149] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 08 17:25:33.610] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 08 17:25:33.610] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 08 17:25:33.610] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 08 17:25:33.616] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 08 17:25:33.617] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 08 17:25:33.617] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 08 17:25:33.617] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 11 12:00:07.613] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 11 12:00:07.642] [ message] [vmusr] Core dump limit set to -1
+[Mar 11 12:00:07.642] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 11 12:00:08.139] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 11 12:00:08.139] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 11 12:00:08.139] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 11 12:00:08.154] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 11 12:00:08.154] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 11 12:00:08.154] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 11 12:00:08.154] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 12 15:39:51.967] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 12 15:39:51.976] [ message] [vmusr] Core dump limit set to -1
+[Mar 12 15:39:51.976] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 12 15:39:52.949] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 12 15:39:52.949] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 12 15:39:52.949] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 12 15:39:52.958] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 12 15:39:52.958] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 12 15:39:52.958] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 12 15:39:52.958] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 18 19:25:07.639] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 18 19:25:07.649] [ message] [vmusr] Core dump limit set to -1
+[Mar 18 19:25:07.649] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 18 19:25:08.225] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 18 19:25:08.225] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 18 19:25:08.225] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 18 19:25:08.236] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 18 19:25:08.236] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 18 19:25:08.236] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 18 19:25:08.236] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 20 14:53:01.131] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 20 14:53:01.131] [ message] [vmusr] Core dump limit set to -1
+[Mar 20 14:53:01.131] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 20 14:53:01.192] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 20 14:53:01.192] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 20 14:53:01.192] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 20 14:53:01.201] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 20 14:53:01.201] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 20 14:53:01.201] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 20 14:53:01.201] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 20 14:55:31.812] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 20 14:55:31.822] [ message] [vmusr] Core dump limit set to -1
+[Mar 20 14:55:31.822] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 20 14:55:32.209] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 20 14:55:32.209] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 20 14:55:32.209] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 20 14:55:32.218] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 20 14:55:32.218] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 20 14:55:32.218] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 20 14:55:32.218] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Mar 26 08:38:13.298] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Mar 26 08:38:13.307] [ message] [vmusr] Core dump limit set to -1
+[Mar 26 08:38:13.307] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Mar 26 08:38:14.287] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Mar 26 08:38:14.287] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Mar 26 08:38:14.287] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Mar 26 08:38:14.297] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Mar 26 08:38:14.297] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Mar 26 08:38:14.297] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Mar 26 08:38:14.297] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 03 19:58:43.349] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 03 19:58:43.354] [ message] [vmusr] Core dump limit set to -1
+[Apr 03 19:58:43.354] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 03 19:58:43.805] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 03 19:58:43.805] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 03 19:58:43.805] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 03 19:58:43.813] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 03 19:58:43.814] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 03 19:58:43.814] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 03 19:58:43.814] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 07 22:04:00.542] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 07 22:04:00.543] [ message] [vmusr] Core dump limit set to -1
+[Apr 07 22:04:00.543] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 07 22:04:00.608] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 07 22:04:00.608] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 07 22:04:00.608] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 07 22:04:00.614] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 07 22:04:00.614] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 07 22:04:00.614] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 07 22:04:00.614] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 10 15:53:39.038] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 10 15:53:39.050] [ message] [vmusr] Core dump limit set to -1
+[Apr 10 15:53:39.050] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 10 15:53:39.684] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 10 15:53:39.685] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 10 15:53:39.685] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 10 15:53:39.689] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 10 15:53:39.689] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 10 15:53:39.689] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 10 15:53:39.689] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 12 17:09:32.068] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 12 17:09:32.089] [ message] [vmusr] Core dump limit set to -1
+[Apr 12 17:09:32.089] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 12 17:09:32.733] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 12 17:09:32.733] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 12 17:09:32.733] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 12 17:09:32.740] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 12 17:09:32.740] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 12 17:09:32.740] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 12 17:09:32.740] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 19 18:04:44.759] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 19 18:04:44.764] [ message] [vmusr] Core dump limit set to -1
+[Apr 19 18:04:44.764] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 19 18:04:45.455] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 19 18:04:45.455] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 19 18:04:45.455] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 19 18:04:45.466] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 19 18:04:45.466] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 19 18:04:45.466] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 19 18:04:45.466] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[Apr 20 07:50:21.446] [ message] [vmusr] Log caching is enabled with maxCacheEntries=4096.
+[Apr 20 07:50:21.451] [ message] [vmusr] Core dump limit set to -1
+[Apr 20 07:50:21.451] [ message] [vmtoolsd] Tools Version: 10.1.5.59732 (build-5055683)
+[Apr 20 07:50:21.894] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[Apr 20 07:50:21.894] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[Apr 20 07:50:21.895] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[Apr 20 07:50:21.912] [ message] [vmtoolsd] Plugin 'desktopEvents' initialized.
+[Apr 20 07:50:21.912] [ message] [vmtoolsd] Unloading plugin 'desktopEvents'.
+[Apr 20 07:50:21.912] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[Apr 20 07:50:21.912] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.

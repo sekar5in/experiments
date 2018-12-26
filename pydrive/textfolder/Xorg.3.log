@@ -1,0 +1,89 @@
+[    34.960] 
+X.Org X Server 1.19.3
+Release Date: 2017-03-15
+[    34.960] X Protocol Version 11, Revision 0
+[    34.960] Build Operating System:  3.10.0-514.16.1.el7.x86_64 
+[    34.960] Current Operating System: Linux niruban.qht.com 3.10.0-693.11.6.el7.x86_64 #1 SMP Thu Jan 4 01:06:37 UTC 2018 x86_64
+[    34.960] Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-693.11.6.el7.x86_64 root=UUID=1aa6e7e1-5f9b-477d-9bfd-e4d71bcafdd2 ro crashkernel=auto rhgb quiet rdblacklist=nouveau
+[    34.960] Build Date: 05 August 2017  06:19:43AM
+[    34.960] Build ID: xorg-x11-server 1.19.3-11.el7 
+[    34.960] Current version of pixman: 0.34.0
+[    34.960] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    34.960] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    34.960] (==) Log file: "/var/log/Xorg.3.log", Time: Tue Jan  9 18:24:18 2018
+[    34.960] (==) Using config file: "/etc/X11/xorg.conf"
+[    34.960] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    34.960] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    34.961] (==) ServerLayout "Layout0"
+[    34.961] (**) |-->Screen "Screen0" (0)
+[    34.961] (**) |   |-->Monitor "Monitor0"
+[    34.961] (**) |   |-->Device "Device0"
+[    34.961] (**) |-->Input Device "Keyboard0"
+[    34.961] (**) |-->Input Device "Mouse0"
+[    34.961] (==) Automatically adding devices
+[    34.961] (==) Automatically enabling devices
+[    34.961] (==) Automatically adding GPU devices
+[    34.961] (==) Automatically binding GPU devices
+[    34.961] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    34.961] (**) FontPath set to:
+	/usr/share/fonts/default/Type1,
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    34.961] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    34.961] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[    34.961] (WW) Disabling Keyboard0
+[    34.961] (WW) Disabling Mouse0
+[    34.961] (II) Loader magic: 0x557171954020
+[    34.961] (II) Module ABI versions:
+[    34.961] 	X.Org ANSI C Emulation: 0.4
+[    34.961] 	X.Org Video Driver: 23.0
+[    34.961] 	X.Org XInput driver : 24.1
+[    34.961] 	X.Org Server Extension : 10.0
+[    34.964] (--) PCI:*(0:1:0:0) 10de:1056:1028:0493 rev 161, Mem @ 0xe4000000/16777216, 0xd0000000/268435456, 0xe0000000/33554432, I/O @ 0x00004000/128, BIOS @ 0x????????/524288
+[    34.964] (II) LoadModule: "glx"
+[    34.964] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    34.971] (II) Module glx: vendor="NVIDIA Corporation"
+[    34.971] 	compiled for 4.0.2, module version = 1.0.0
+[    34.971] 	Module class: X.Org Server Extension
+[    34.971] (II) NVIDIA GLX Module  384.90  Tue Sep 19 17:00:25 PDT 2017
+[    34.971] (II) LoadModule: "nvidia"
+[    34.971] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[    34.971] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    34.971] 	compiled for 4.0.2, module version = 1.0.0
+[    34.971] 	Module class: X.Org Video Driver
+[    34.971] (II) NVIDIA dlloader X Driver  384.90  Tue Sep 19 16:35:54 PDT 2017
+[    34.971] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    34.971] (++) using VT number 1
+
+[    34.974] (II) Loading sub module "fb"
+[    34.974] (II) LoadModule: "fb"
+[    34.974] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    34.975] (II) Module fb: vendor="X.Org Foundation"
+[    34.975] 	compiled for 1.19.3, module version = 1.0.0
+[    34.975] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    34.975] (II) Loading sub module "wfb"
+[    34.975] (II) LoadModule: "wfb"
+[    34.975] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[    34.975] (II) Module wfb: vendor="X.Org Foundation"
+[    34.975] 	compiled for 1.19.3, module version = 1.0.0
+[    34.975] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    34.975] (II) Loading sub module "ramdac"
+[    34.975] (II) LoadModule: "ramdac"
+[    34.975] (II) Module "ramdac" already built-in
+[    34.980] (EE) NVIDIA: Failed to initialize the NVIDIA kernel module. Please see the
+[    34.980] (EE) NVIDIA:     system's kernel log for additional error messages and
+[    34.980] (EE) NVIDIA:     consult the NVIDIA README for details.
+[    34.980] (EE) No devices detected.
+[    34.980] (EE) 
+Fatal server error:
+[    34.980] (EE) no screens found(EE) 
+[    34.980] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    34.980] (EE) Please also check the log file at "/var/log/Xorg.3.log" for additional information.
+[    34.980] (EE) 
+[    34.981] (EE) Server terminated with error (1). Closing log file.

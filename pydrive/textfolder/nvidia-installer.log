@@ -1,0 +1,389 @@
+nvidia-installer log file '/var/log/nvidia-installer.log'
+creation time: Sat Sep 30 23:33:35 2017
+installer version: 384.90
+
+PATH: /usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+nvidia-installer command line:
+    ./nvidia-installer
+
+Unable to load: nvidia-installer ncurses v6 user interface
+
+Using: nvidia-installer ncurses user interface
+-> Detected 4 CPUs online; setting concurrency level to 4.
+-> License accepted.
+-> Installing NVIDIA driver version 384.90.
+-> Performing CC sanity check with CC="/bin/cc".
+-> Kernel source path: '/lib/modules/3.10.0-693.2.2.el7.x86_64/source'
+-> Kernel output path: '/lib/modules/3.10.0-693.2.2.el7.x86_64/build'
+-> Performing Compiler check.
+-> Performing Dom0 check.
+-> Performing Xen check.
+-> Performing PREEMPT_RT check.
+-> Cleaning kernel module build directory.
+   executing: 'cd ./kernel; /bin/make -k -j4 clean NV_EXCLUDE_KERNEL_MODULES="" SYSSRC="/lib/modules/3.10.0-693.2.2.el7.x86_64/source" SYSOUT="/lib/modules/3.10.0-693.2.2.el7.x86_64/build"'...
+   rm -f -r conftest
+   /bin/make "CC=cc" KBUILD_OUTPUT=/lib/modules/3.10.0-693.2.2.el7.x86_64/build KBUILD_VERBOSE= -C /lib/modules/3.10.0-693.2.2.el7.x86_64/source M=/tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel ARCH=x86_64 NV_KERNEL_SOURCES=/lib/modules/3.10.0-693.2.2.el7.x86_64/source NV_KERNEL_OUTPUT=/lib/modules/3.10.0-693.2.2.el7.x86_64/build NV_KERNEL_MODULES="nvidia nvidia-uvm nvidia-modeset nvidia-drm" INSTALL_MOD_DIR=kernel/drivers/video clean
+   make[1]: Entering directory `/usr/src/kernels/3.10.0-693.2.2.el7.x86_64'
+   /bin/make -C /lib/modules/3.10.0-693.2.2.el7.x86_64/build \
+   KBUILD_SRC=/usr/src/kernels/3.10.0-693.2.2.el7.x86_64 \
+   KBUILD_EXTMOD="/tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel" -f /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/Makefile \
+   clean
+   make[1]: Leaving directory `/usr/src/kernels/3.10.0-693.2.2.el7.x86_64'
+-> Building kernel modules
+   executing: 'cd ./kernel; /bin/make -k -j4  NV_EXCLUDE_KERNEL_MODULES="" SYSSRC="/lib/modules/3.10.0-693.2.2.el7.x86_64/source" SYSOUT="/lib/modules/3.10.0-693.2.2.el7.x86_64/build"'...
+   /bin/make "CC=cc" KBUILD_OUTPUT=/lib/modules/3.10.0-693.2.2.el7.x86_64/build KBUILD_VERBOSE= -C /lib/modules/3.10.0-693.2.2.el7.x86_64/source M=/tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel ARCH=x86_64 NV_KERNEL_SOURCES=/lib/modules/3.10.0-693.2.2.el7.x86_64/source NV_KERNEL_OUTPUT=/lib/modules/3.10.0-693.2.2.el7.x86_64/build NV_KERNEL_MODULES="nvidia nvidia-uvm nvidia-modeset nvidia-drm" INSTALL_MOD_DIR=kernel/drivers/video modules
+   make[1]: Entering directory `/usr/src/kernels/3.10.0-693.2.2.el7.x86_64'
+   /bin/make -C /lib/modules/3.10.0-693.2.2.el7.x86_64/build \
+   KBUILD_SRC=/usr/src/kernels/3.10.0-693.2.2.el7.x86_64 \
+   KBUILD_EXTMOD="/tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel" -f /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/Makefile \
+   modules
+     SYMLINK /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset/nv-modeset-kernel.o
+     SYMLINK /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-kernel.o
+    CONFTEST: INIT_WORK
+    CONFTEST: remap_pfn_range
+    CONFTEST: follow_pfn
+    CONFTEST: hash__remap_4k_pfn
+    CONFTEST: vmap
+    CONFTEST: set_pages_uc
+    CONFTEST: set_memory_uc
+    CONFTEST: set_memory_array_uc
+    CONFTEST: change_page_attr
+    CONFTEST: pci_get_class
+    CONFTEST: pci_choose_state
+    CONFTEST: vm_insert_page
+    CONFTEST: acpi_device_id
+    CONFTEST: acquire_console_sem
+    CONFTEST: console_lock
+    CONFTEST: kmem_cache_create
+    CONFTEST: on_each_cpu
+    CONFTEST: smp_call_function
+    CONFTEST: acpi_evaluate_integer
+    CONFTEST: ioremap_cache
+    CONFTEST: ioremap_wc
+    CONFTEST: acpi_walk_namespace
+    CONFTEST: pci_domain_nr
+    CONFTEST: pci_dma_mapping_error
+    CONFTEST: sg_alloc_table
+    CONFTEST: sg_init_table
+    CONFTEST: pci_get_domain_bus_and_slot
+    CONFTEST: get_num_physpages
+    CONFTEST: efi_enabled
+    CONFTEST: proc_create_data
+    CONFTEST: pde_data
+    CONFTEST: proc_remove
+    CONFTEST: pm_vt_switch_required
+    CONFTEST: xen_ioemu_inject_msi
+    CONFTEST: phys_to_dma
+    CONFTEST: get_dma_ops
+    CONFTEST: write_cr4
+    CONFTEST: of_get_property
+    CONFTEST: of_find_node_by_phandle
+    CONFTEST: of_node_to_nid
+    CONFTEST: pnv_pci_get_npu_dev
+    CONFTEST: for_each_online_node
+    CONFTEST: node_end_pfn
+    CONFTEST: pci_bus_address
+    CONFTEST: pci_stop_and_remove_bus_device
+    CONFTEST: pci_remove_bus_device
+    CONFTEST: request_threaded_irq
+    CONFTEST: register_cpu_notifier
+    CONFTEST: cpuhp_setup_state
+    CONFTEST: remap_page_range
+    CONFTEST: address_space_init_once
+    CONFTEST: kbasename
+    CONFTEST: fatal_signal_pending
+    CONFTEST: list_cut_position
+    CONFTEST: vzalloc
+    CONFTEST: wait_on_bit_lock_argument_count
+    CONFTEST: bitmap_clear
+    CONFTEST: usleep_range
+    CONFTEST: radix_tree_empty
+    CONFTEST: drm_dev_unref
+    CONFTEST: drm_reinit_primary_mode_group
+    CONFTEST: drm_atomic_set_mode_for_crtc
+    CONFTEST: drm_atomic_clean_old_fb
+    CONFTEST: get_user_pages_remote
+    CONFTEST: drm_gem_object_lookup
+    CONFTEST: drm_atomic_state_free
+    CONFTEST: drm_driver_has_gem_prime_res_obj
+    CONFTEST: is_export_symbol_gpl_of_node_to_nid
+    CONFTEST: i2c_adapter
+    CONFTEST: pm_message_t
+    CONFTEST: irq_handler_t
+    CONFTEST: acpi_device_ops
+    CONFTEST: acpi_op_remove
+    CONFTEST: outer_flush_all
+    CONFTEST: proc_dir_entry
+    CONFTEST: scatterlist
+    CONFTEST: sg_table
+    CONFTEST: file_operations
+    CONFTEST: vm_operations_struct
+    CONFTEST: atomic_long_type
+    CONFTEST: pci_save_state
+    CONFTEST: file_inode
+    CONFTEST: task_struct
+    CONFTEST: dma_ops
+    CONFTEST: kuid_t
+    CONFTEST: dma_map_ops
+    CONFTEST: noncoherent_swiotlb_dma_ops
+    CONFTEST: vm_fault_present
+    CONFTEST: vm_fault_has_address
+    CONFTEST: kernel_write
+    CONFTEST: strnstr
+    CONFTEST: iterate_dir
+    CONFTEST: kstrtoull
+    CONFTEST: fault_flags
+    CONFTEST: atomic64_type
+    CONFTEST: address_space
+    CONFTEST: mm_context_t
+    CONFTEST: backing_dev_info
+    CONFTEST: vm_ops_fault_removed_vma_arg
+    CONFTEST: pnv_npu2_init_context
+    CONFTEST: drm_bus_present
+    CONFTEST: drm_bus_has_bus_type
+    CONFTEST: drm_bus_has_get_irq
+    CONFTEST: drm_bus_has_get_name
+    CONFTEST: drm_driver_has_legacy_dev_list
+    CONFTEST: drm_driver_has_set_busid
+    CONFTEST: drm_crtc_state_has_connectors_changed
+    CONFTEST: drm_init_functions_have_name_arg
+    CONFTEST: drm_mode_connector_list_update_has_merge_type_bits_arg
+    CONFTEST: drm_helper_mode_fill_fb_struct
+    CONFTEST: drm_master_drop_has_from_release_arg
+    CONFTEST: drm_mode_config_funcs_has_atomic_state_alloc
+    CONFTEST: drm_driver_unload_has_int_return_type
+    CONFTEST: dom0_kernel_present
+    CONFTEST: nvidia_vgpu_kvm_build
+    CONFTEST: nvidia_grid_build
+    CONFTEST: drm_available
+    CONFTEST: drm_atomic_available
+    CONFTEST: is_export_symbol_gpl_refcount_inc
+    CONFTEST: drm_atomic_modeset_nonblocking_commit_available
+    CONFTEST: is_export_symbol_gpl_refcount_dec_and_test
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-drv.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-utils.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-crtc.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-encoder.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-connector.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-gem.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-fb.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-modeset.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-prime-fence.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-linux.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nvidia-drm-helper.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm/nv-pci-table.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset/nvidia-modeset-linux.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_volta_host.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_volta.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_volta_fault_buffer.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_volta_access_counter_buffer.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_non_replayable_faults.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_access_counters.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm_utils.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm_common.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm_linux.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/nvstatus.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_tools.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_global.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_isr.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_procfs.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_va_space.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_semaphore.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_mem.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_rm_mem.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_channel.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_lock.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_hal.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_tree.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_allocator.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_va_range.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_va_block.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_group.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_replayable_faults.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_events.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_module.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_mmu.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pte_batch.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_tlb_batch.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_push.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pushbuffer.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_thread_context.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_tracker.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kepler.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kepler_ce.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kepler_host.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kepler_mmu.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_maxwell.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_maxwell_host.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pascal.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pascal_ce.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pascal_host.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pascal_mmu.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pascal_fault_buffer.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_policy.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_utils.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kvmalloc.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pmm_gpu.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_migrate.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_map_external.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_user_channel.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_hmm.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_heuristics.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_thrashing.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_prefetch.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_test_rng.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_tree_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_allocator_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_gpu_semaphore_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_mem_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_rm_mem_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_page_tree_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_tracker_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_push_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_channel_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_ce_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_lock_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_utils_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_kvmalloc_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_pmm_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_events_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_perf_module_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_get_rm_ptes_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_fault_buffer_flush_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_mmu_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_peer_identity_mappings_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_va_block_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm/uvm8_range_group_tree_test.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-frontend.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-instance.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gpu-numa.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv.o
+   In file included from /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gpu-numa.c:26:0:
+   /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/common/inc/nvmisc.h:56:0: warning: "BIT" redefined [enabled by default]
+    #define BIT(b)                  (1<<(b))
+    ^
+   In file included from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/kernel.h:10:0,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/asm-generic/bug.h:13,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/arch/x86/include/asm/bug.h:38,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/bug.h:4,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/thread_info.h:11,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/preempt.h:9,
+                    from /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/spinlock.h:50,
+                    from /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/common/inc/nv-lock.h:16,
+                    from /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/common/inc/nv-linux.h:19,
+                    from /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gpu-numa.c:24:
+   /usr/src/kernels/3.10.0-693.2.2.el7.x86_64/include/linux/bitops.h:6:0: note: this is the location of the previous definition
+    #define BIT(nr)   (1UL << (nr))
+    ^
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-acpi.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-chrdev.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-cray.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-dma.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gvi.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-i2c.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-mempool.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-mmap.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-p2p.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-pat.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-procfs.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-usermap.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-vm.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-vtophys.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-interface.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-mlock.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-pci.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-registry.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-usermap.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-modeset-interface.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-pci-table.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-kthread-q.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-kthread-q-selftest.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-memdbg.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv_uvm_interface.o
+     CC [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nvlink_linux.o
+   ld -r -o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset/nv-modeset-interface.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset/nvidia-modeset-linux.o
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia.o
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm.o
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset.o
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm.o
+   ld -r -o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-interface.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-frontend.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-instance.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gpu-numa.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-acpi.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-chrdev.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-cray.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-dma.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-gvi.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-i2c.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-mempool.
+   o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-mmap.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-p2p.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-pat.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-procfs.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-usermap.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-vm.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-vtophys.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-interface.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-mlock.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-pci.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-registry.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/os-usermap.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-modeset-interface.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-pci-table.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/
+   nvidia/nv-kthread-q.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-kthread-q-selftest.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv-memdbg.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nv_uvm_interface.o /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia/nvlink_linux.o
+     Building modules, stage 2.
+     MODPOST 4 modules
+     CC      /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm.mod.o
+     CC      /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset.mod.o
+     CC      /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm.mod.o
+     CC      /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia.mod.o
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-drm.ko
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-modeset.ko
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia-uvm.ko
+     LD [M]  /tmp/selfgz3922/NVIDIA-Linux-x86_64-384.90/kernel/nvidia.ko
+   make[1]: Leaving directory `/usr/src/kernels/3.10.0-693.2.2.el7.x86_64'
+-> done.
+-> Kernel module compilation complete.
+-> Unable to determine if Secure Boot is enabled: No such file or directory
+-> Kernel messages:
+[   18.690959] e1000e 0000:00:19.0: irq 26 for MSI/MSI-X
+[   18.691117] IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
+[   21.329087] e1000e: em1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: Rx/Tx
+[   21.329101] e1000e 0000:00:19.0 em1: 10/100 speed: disabling TSO
+[   21.329162] IPv6: ADDRCONF(NETDEV_CHANGE): em1: link becomes ready
+[ 8000.541452] Bluetooth: RFCOMM TTY layer initialized
+[ 8000.541469] Bluetooth: RFCOMM socket layer initialized
+[ 8000.541482] Bluetooth: RFCOMM ver 1.11
+[ 8172.989207] mtrr: no MTRR for e1000000,e00000 found
+[ 8456.137551] [drm] Initialized
+[ 8456.193867] VFIO - User Level meta-driver version: 0.3
+[ 8456.213282] nvidia: loading out-of-tree module taints kernel.
+[ 8456.213290] nvidia: module license 'NVIDIA' taints kernel.
+[ 8456.213292] Disabling lock debugging due to kernel taint
+[ 8456.219408] nvidia: module verification failed: signature and/or required key missing - tainting kernel
+[ 8456.226291] nvidia-nvlink: Nvlink Core is being initialized, major device number 242
+[ 8456.226587] vgaarb: device changed decodes: PCI:0000:01:00.0,olddecodes=io+mem,decodes=none:owns=io+mem
+[ 8456.226663] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  384.90  Tue Sep 19 19:17:35 PDT 2017 (using threaded interrupts)
+[ 8456.237659] nvidia-uvm: Loaded the UVM driver in 8 mode, major device number 241
+[ 8456.239685] nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  384.90  Tue Sep 19 17:05:19 PDT 2017
+[ 8456.241845] [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+[ 8456.243907] [drm] [nvidia-drm] [GPU ID 0x00000100] Unloading driver
+[ 8456.246352] nvidia-modeset: Unloading
+[ 8456.248742] nvidia-uvm: Unloaded the UVM driver in 8 mode
+[ 8456.251082] nvidia-nvlink: Unregistered the Nvlink Core, major device number 242
+-> Installing both new and classic TLS OpenGL libraries.
+-> Installing classic TLS 32bit OpenGL libraries.
+-> Install NVIDIA's 32-bit compatibility libraries? (Answer: No)
+-> Will install GLVND GLX client libraries.
+-> Will install GLVND EGL client libraries.
+-> Skipping GLX non-GLVND file: "libGL.so.384.90"
+-> Skipping GLX non-GLVND file: "libGL.so.1"
+-> Skipping GLX non-GLVND file: "libGL.so"
+-> Skipping EGL non-GLVND file: "libEGL.so.384.90"
+-> Skipping EGL non-GLVND file: "libEGL.so"
+-> Skipping EGL non-GLVND file: "libEGL.so.1"
+Looking for install checker script at ./libglvnd_install_checker/check-libglvnd-install.sh
+   executing: '/bin/sh ./libglvnd_install_checker/check-libglvnd-install.sh'...
+   Checking for libglvnd installation.
+   Checking libGLdispatch...
+   Can't load library libGLdispatch.so.0: libGLdispatch.so.0: cannot open shared object file: No such file or directory
+Will install libglvnd libraries.
+Will install libEGL vendor library config file to /usr/share/glvnd/egl_vendor.d
+-> Searching for conflicting files:
+-> done.
+-> Installing 'NVIDIA Accelerated Graphics Driver for Linux-x86_64' (384.90):
+   executing: '/sbin/ldconfig'...
+   executing: '/sbin/depmod -a '...
+-> done.
+-> Driver file installation is complete.
+-> Running post-install sanity check:
+-> done.
+-> Post-install sanity check passed.
+-> Running runtime sanity check:
+-> done.
+-> Runtime sanity check passed.
+-> Would you like to run the nvidia-xconfig utility to automatically update your X configuration file so that the NVIDIA X driver will be used when you restart X?  Any pre-existing X configuration file will be backed up. (Answer: Yes)
+-> Your X configuration file has been successfully updated.  Installation of the NVIDIA Accelerated Graphics Driver for Linux-x86_64 (version: 384.90) is now complete.

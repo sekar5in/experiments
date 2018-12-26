@@ -1,0 +1,85 @@
+Apr  5 09:43:53 niruban postfix/pickup[10228]: 2769E2095F20: uid=0 from=<root>
+Apr  5 09:43:53 niruban postfix/cleanup[12435]: 2769E2095F20: message-id=<20180405041353.2769E2095F20@niruban.qht.com>
+Apr  5 09:43:53 niruban postfix/qmgr[1638]: 2769E2095F20: from=<root@niruban.qht.com>, size=1384, nrcpt=1 (queue active)
+Apr  5 09:43:53 niruban postfix/local[12438]: 2769E2095F20: to=<root@niruban.qht.com>, orig_to=<root>, relay=local, delay=0.36, delays=0.25/0.04/0/0.08, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:43:53 niruban postfix/cleanup[12435]: 537D5218472B: message-id=<20180405041353.537D5218472B@niruban.qht.com>
+Apr  5 09:43:53 niruban postfix/bounce[12439]: 2769E2095F20: sender non-delivery notification: 537D5218472B
+Apr  5 09:43:53 niruban postfix/qmgr[1638]: 537D5218472B: from=<>, size=3241, nrcpt=1 (queue active)
+Apr  5 09:43:53 niruban postfix/qmgr[1638]: 2769E2095F20: removed
+Apr  5 09:43:53 niruban postfix/local[12438]: 537D5218472B: to=<root@niruban.qht.com>, relay=local, delay=0.07, delays=0.02/0/0/0.04, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:43:53 niruban postfix/qmgr[1638]: 537D5218472B: removed
+Apr  5 09:44:23 niruban postfix/pickup[10228]: 7F87A2095F20: uid=0 from=<user@localhost>
+Apr  5 09:44:23 niruban postfix/cleanup[12435]: 7F87A2095F20: message-id=<5ac5a29f.+fCrSW4COUurX/wt%user@localhost>
+Apr  5 09:44:23 niruban postfix/qmgr[1638]: 7F87A2095F20: from=<user@localhost.qht.com>, size=77816, nrcpt=1 (queue active)
+Apr  5 09:44:23 niruban postfix/local[12438]: 7F87A2095F20: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.38, delays=0.17/0/0/0.22, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:44:23 niruban postfix/cleanup[12435]: C295C218472B: message-id=<20180405041423.C295C218472B@niruban.qht.com>
+Apr  5 09:44:23 niruban postfix/bounce[12439]: 7F87A2095F20: sender non-delivery notification: C295C218472B
+Apr  5 09:44:23 niruban postfix/qmgr[1638]: C295C218472B: from=<>, size=2414, nrcpt=1 (queue active)
+Apr  5 09:44:23 niruban postfix/qmgr[1638]: 7F87A2095F20: removed
+Apr  5 09:44:23 niruban postfix/local[12438]: C295C218472B: to=<user@localhost.qht.com>, relay=local, delay=0.09, delays=0.04/0/0/0.05, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  5 09:44:23 niruban postfix/qmgr[1638]: C295C218472B: removed
+Apr  5 09:44:29 niruban postfix/pickup[10228]: B5F2E2095F20: uid=0 from=<user@localhost>
+Apr  5 09:44:29 niruban postfix/cleanup[12435]: B5F2E2095F20: message-id=<5ac5a2a5.IkEl2EHBzMPqCAcK%user@localhost>
+Apr  5 09:44:29 niruban postfix/qmgr[1638]: B5F2E2095F20: from=<user@localhost.qht.com>, size=77816, nrcpt=1 (queue active)
+Apr  5 09:44:29 niruban postfix/local[12438]: B5F2E2095F20: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.2, delays=0.17/0/0/0.03, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:44:29 niruban postfix/cleanup[12435]: C43C0218472B: message-id=<20180405041429.C43C0218472B@niruban.qht.com>
+Apr  5 09:44:29 niruban postfix/bounce[12439]: B5F2E2095F20: sender non-delivery notification: C43C0218472B
+Apr  5 09:44:29 niruban postfix/qmgr[1638]: C43C0218472B: from=<>, size=2414, nrcpt=1 (queue active)
+Apr  5 09:44:29 niruban postfix/qmgr[1638]: B5F2E2095F20: removed
+Apr  5 09:44:29 niruban postfix/local[12438]: C43C0218472B: to=<user@localhost.qht.com>, relay=local, delay=0.04, delays=0.02/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  5 09:44:29 niruban postfix/qmgr[1638]: C43C0218472B: removed
+Apr  5 09:44:38 niruban postfix/pickup[10228]: AB1E42095F20: uid=0 from=<user@localhost>
+Apr  5 09:44:38 niruban postfix/cleanup[12435]: AB1E42095F20: message-id=<5ac5a2ae.tBz47B8TxjP/ruFx%user@localhost>
+Apr  5 09:44:38 niruban postfix/qmgr[1638]: AB1E42095F20: from=<user@localhost.qht.com>, size=77816, nrcpt=1 (queue active)
+Apr  5 09:44:38 niruban postfix/local[12438]: AB1E42095F20: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.15, delays=0.11/0/0/0.04, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:44:38 niruban postfix/cleanup[12435]: BB79C218472B: message-id=<20180405041438.BB79C218472B@niruban.qht.com>
+Apr  5 09:44:38 niruban postfix/bounce[12439]: AB1E42095F20: sender non-delivery notification: BB79C218472B
+Apr  5 09:44:38 niruban postfix/qmgr[1638]: BB79C218472B: from=<>, size=2414, nrcpt=1 (queue active)
+Apr  5 09:44:38 niruban postfix/qmgr[1638]: AB1E42095F20: removed
+Apr  5 09:44:38 niruban postfix/local[12438]: BB79C218472B: to=<user@localhost.qht.com>, relay=local, delay=0.05, delays=0.02/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  5 09:44:38 niruban postfix/qmgr[1638]: BB79C218472B: removed
+Apr  5 09:44:47 niruban postfix/pickup[10228]: C4E322095F20: uid=0 from=<user@localhost>
+Apr  5 09:44:47 niruban postfix/cleanup[12435]: C4E322095F20: message-id=<5ac5a2b7.BPOv6eEpQYwU3MNn%user@localhost>
+Apr  5 09:44:47 niruban postfix/qmgr[1638]: C4E322095F20: from=<user@localhost.qht.com>, size=77816, nrcpt=1 (queue active)
+Apr  5 09:44:47 niruban postfix/local[12438]: C4E322095F20: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.11, delays=0.06/0/0/0.05, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 09:44:47 niruban postfix/cleanup[12435]: D73E9218472B: message-id=<20180405041447.D73E9218472B@niruban.qht.com>
+Apr  5 09:44:47 niruban postfix/bounce[12439]: C4E322095F20: sender non-delivery notification: D73E9218472B
+Apr  5 09:44:47 niruban postfix/qmgr[1638]: D73E9218472B: from=<>, size=2414, nrcpt=1 (queue active)
+Apr  5 09:44:47 niruban postfix/qmgr[1638]: C4E322095F20: removed
+Apr  5 09:44:47 niruban postfix/local[12438]: D73E9218472B: to=<user@localhost.qht.com>, relay=local, delay=0.05, delays=0.02/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  5 09:44:47 niruban postfix/qmgr[1638]: D73E9218472B: removed
+Apr  5 14:52:08 niruban postfix/pickup[13903]: 27F3A2184701: uid=0 from=<user@localhost>
+Apr  5 14:52:08 niruban postfix/cleanup[13981]: 27F3A2184701: message-id=<5ac5eabf.IY85LlRCPXyE4zM3%user@localhost>
+Apr  5 14:52:08 niruban postfix/qmgr[1638]: 27F3A2184701: from=<user@localhost.qht.com>, size=101637, nrcpt=1 (queue active)
+Apr  5 14:52:08 niruban postfix/local[13989]: 27F3A2184701: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.27, delays=0.19/0.03/0/0.06, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  5 14:52:08 niruban postfix/cleanup[13981]: 4BD10218472B: message-id=<20180405092208.4BD10218472B@niruban.qht.com>
+Apr  5 14:52:08 niruban postfix/bounce[13991]: 27F3A2184701: sender non-delivery notification: 4BD10218472B
+Apr  5 14:52:08 niruban postfix/qmgr[1638]: 4BD10218472B: from=<>, size=2407, nrcpt=1 (queue active)
+Apr  5 14:52:08 niruban postfix/qmgr[1638]: 27F3A2184701: removed
+Apr  5 14:52:08 niruban postfix/local[13989]: 4BD10218472B: to=<user@localhost.qht.com>, relay=local, delay=0.06, delays=0.02/0/0/0.04, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  5 14:52:08 niruban postfix/qmgr[1638]: 4BD10218472B: removed
+Apr  7 22:03:21 niruban postfix/postfix-script[1664]: starting the Postfix mail system
+Apr  7 22:03:22 niruban postfix/master[1666]: daemon started -- version 2.10.1, configuration /etc/postfix
+Apr  7 22:03:22 niruban postfix/qmgr[1672]: D7C68218472B: from=<>, size=2407, nrcpt=1 (queue active)
+Apr  7 22:03:23 niruban postfix/local[1704]: D7C68218472B: to=<user@localhost.qht.com>, relay=local, delay=23994, delays=23993/0.28/0/0.45, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  7 22:03:23 niruban postfix/qmgr[1672]: D7C68218472B: removed
+Apr  8 13:40:37 niruban postfix/pickup[4386]: 0465621E17E3: uid=0 from=<user@localhost>
+Apr  8 13:40:37 niruban postfix/cleanup[4479]: 0465621E17E3: message-id=<5ac9ce7c.n32KOdHUvd7ivFBs%user@localhost>
+Apr  8 13:40:37 niruban postfix/qmgr[1672]: 0465621E17E3: from=<user@localhost.qht.com>, size=101637, nrcpt=1 (queue active)
+Apr  8 13:40:37 niruban postfix/local[4481]: 0465621E17E3: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.51, delays=0.3/0.08/0/0.12, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  8 13:40:37 niruban postfix/cleanup[4479]: 52B3922CD708: message-id=<20180408081037.52B3922CD708@niruban.qht.com>
+Apr  8 13:40:37 niruban postfix/bounce[4482]: 0465621E17E3: sender non-delivery notification: 52B3922CD708
+Apr  8 13:40:37 niruban postfix/qmgr[1672]: 52B3922CD708: from=<>, size=2407, nrcpt=1 (queue active)
+Apr  8 13:40:37 niruban postfix/local[4481]: 52B3922CD708: to=<user@localhost.qht.com>, relay=local, delay=0.42, delays=0.03/0/0/0.39, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  8 13:40:37 niruban postfix/qmgr[1672]: 0465621E17E3: removed
+Apr  8 13:40:37 niruban postfix/qmgr[1672]: 52B3922CD708: removed
+Apr  8 13:50:29 niruban postfix/pickup[4946]: BA26421E17E3: uid=0 from=<user@localhost>
+Apr  8 13:50:29 niruban postfix/cleanup[5027]: BA26421E17E3: message-id=<5ac9d0cd.4Q/Z0l199+zYpZLd%user@localhost>
+Apr  8 13:50:29 niruban postfix/qmgr[1672]: BA26421E17E3: from=<user@localhost.qht.com>, size=101638, nrcpt=1 (queue active)
+Apr  8 13:50:30 niruban postfix/local[5029]: BA26421E17E3: to=<root@localhost.qht.com>, orig_to=<root@localhost>, relay=local, delay=0.32, delays=0.22/0.04/0/0.06, dsn=5.2.2, status=bounced (cannot update mailbox /var/mail/root for user root. error writing message: File too large)
+Apr  8 13:50:30 niruban postfix/cleanup[5027]: 01FD022CD708: message-id=<20180408082030.01FD022CD708@niruban.qht.com>
+Apr  8 13:50:30 niruban postfix/bounce[5030]: BA26421E17E3: sender non-delivery notification: 01FD022CD708
+Apr  8 13:50:30 niruban postfix/qmgr[1672]: 01FD022CD708: from=<>, size=2407, nrcpt=1 (queue active)
+Apr  8 13:50:30 niruban postfix/qmgr[1672]: BA26421E17E3: removed
+Apr  8 13:50:30 niruban postfix/local[5029]: 01FD022CD708: to=<user@localhost.qht.com>, relay=local, delay=0.05, delays=0.02/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "user")
+Apr  8 13:50:30 niruban postfix/qmgr[1672]: 01FD022CD708: removed

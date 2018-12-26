@@ -1,0 +1,1625 @@
+[    34.150] 
+X.Org X Server 1.19.3
+Release Date: 2017-03-15
+[    34.151] X Protocol Version 11, Revision 0
+[    34.151] Build Operating System:  3.10.0-514.16.1.el7.x86_64 
+[    34.151] Current Operating System: Linux niruban.qht.com 3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017 x86_64
+[    34.151] Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-693.2.2.el7.x86_64 root=UUID=1aa6e7e1-5f9b-477d-9bfd-e4d71bcafdd2 ro crashkernel=auto rhgb quiet rdblacklist=nouveau
+[    34.151] Build Date: 05 August 2017  06:19:43AM
+[    34.151] Build ID: xorg-x11-server 1.19.3-11.el7 
+[    34.151] Current version of pixman: 0.34.0
+[    34.151] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    34.151] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    34.151] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Apr 20 07:49:28 2018
+[    34.151] (==) Using config file: "/etc/X11/xorg.conf"
+[    34.151] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    34.151] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    34.153] (==) ServerLayout "Layout0"
+[    34.153] (**) |-->Screen "Screen0" (0)
+[    34.153] (**) |   |-->Monitor "Monitor0"
+[    34.153] (**) |   |-->Device "Device0"
+[    34.153] (**) |-->Input Device "Keyboard0"
+[    34.153] (**) |-->Input Device "Mouse0"
+[    34.153] (==) Automatically adding devices
+[    34.153] (==) Automatically enabling devices
+[    34.153] (==) Automatically adding GPU devices
+[    34.153] (==) Automatically binding GPU devices
+[    34.153] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    34.371] (**) FontPath set to:
+	/usr/share/fonts/default/Type1,
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    34.371] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    34.371] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[    34.371] (WW) Disabling Keyboard0
+[    34.371] (WW) Disabling Mouse0
+[    34.371] (II) Loader magic: 0x5623b7690020
+[    34.371] (II) Module ABI versions:
+[    34.371] 	X.Org ANSI C Emulation: 0.4
+[    34.371] 	X.Org Video Driver: 23.0
+[    34.371] 	X.Org XInput driver : 24.1
+[    34.371] 	X.Org Server Extension : 10.0
+[    34.372] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    34.375] (--) PCI:*(0:1:0:0) 10de:1056:1028:0493 rev 161, Mem @ 0xe4000000/16777216, 0xd0000000/268435456, 0xe0000000/33554432, I/O @ 0x00004000/128, BIOS @ 0x????????/524288
+[    34.376] (II) LoadModule: "glx"
+[    34.563] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    36.867] (II) Module glx: vendor="NVIDIA Corporation"
+[    36.867] 	compiled for 4.0.2, module version = 1.0.0
+[    36.868] 	Module class: X.Org Server Extension
+[    37.000] (II) NVIDIA GLX Module  384.90  Tue Sep 19 17:00:25 PDT 2017
+[    37.009] (II) LoadModule: "nvidia"
+[    37.009] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[    37.010] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    37.010] 	compiled for 4.0.2, module version = 1.0.0
+[    37.010] 	Module class: X.Org Video Driver
+[    37.010] (II) NVIDIA dlloader X Driver  384.90  Tue Sep 19 16:35:54 PDT 2017
+[    37.010] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    37.010] (++) using VT number 1
+
+[    37.012] (II) Loading sub module "fb"
+[    37.012] (II) LoadModule: "fb"
+[    37.024] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    37.024] (II) Module fb: vendor="X.Org Foundation"
+[    37.024] 	compiled for 1.19.3, module version = 1.0.0
+[    37.024] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    37.024] (II) Loading sub module "wfb"
+[    37.024] (II) LoadModule: "wfb"
+[    37.025] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[    37.025] (II) Module wfb: vendor="X.Org Foundation"
+[    37.025] 	compiled for 1.19.3, module version = 1.0.0
+[    37.025] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    37.025] (II) Loading sub module "ramdac"
+[    37.025] (II) LoadModule: "ramdac"
+[    37.025] (II) Module "ramdac" already built-in
+[    37.040] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[    37.040] (==) NVIDIA(0): RGB weight 888
+[    37.040] (==) NVIDIA(0): Default visual is TrueColor
+[    37.040] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[    37.040] (**) NVIDIA(0): Enabling 2D acceleration
+[    37.830] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[    37.831] (--) NVIDIA(0):     CRT-0
+[    37.831] (--) NVIDIA(0):     DFP-0 (boot)
+[    37.831] (--) NVIDIA(0):     DFP-1
+[    37.831] (--) NVIDIA(0):     DFP-2
+[    37.831] (--) NVIDIA(0):     DFP-3
+[    37.831] (--) NVIDIA(0):     DFP-4
+[    37.831] (--) NVIDIA(0):     DFP-5
+[    37.832] (II) NVIDIA(0): NVIDIA GPU NVS 4200M (GF119) at PCI:1:0:0 (GPU-0)
+[    37.832] (--) NVIDIA(0): Memory: 524288 kBytes
+[    37.832] (--) NVIDIA(0): VideoBIOS: 75.19.17.01.01
+[    37.832] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[    37.833] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    37.833] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    37.833] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    37.834] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    37.834] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    37.834] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    37.834] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    37.834] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    37.834] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    37.834] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    37.834] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    37.834] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    37.834] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.834] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    37.834] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    37.834] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    37.834] (--) NVIDIA(GPU-0): 
+[    37.836] (==) NVIDIA(0): 
+[    37.836] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[    37.836] (==) NVIDIA(0):     will be used as the requested mode.
+[    37.836] (==) NVIDIA(0): 
+[    37.836] (II) NVIDIA(0): Validated MetaModes:
+[    37.836] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select"
+[    37.836] (II) NVIDIA(0): Virtual screen size determined to be 1366 x 768
+[    37.840] (--) NVIDIA(0): DPI set to (111, 114); computed from "UseEdidDpi" X config
+[    37.840] (--) NVIDIA(0):     option
+[    37.840] (--) Depth 24 pixmap format is 32 bpp
+[    37.840] (II) NVIDIA: Using 6144.00 MB of virtual memory for indirect memory
+[    37.840] (II) NVIDIA:     access.
+[    37.845] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[    37.845] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[    37.845] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[    37.845] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[    37.845] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[    37.845] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[    37.845] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[    37.845] (II) NVIDIA(0):     Config Options in the README.
+[    37.864] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[    38.735] (==) NVIDIA(0): Disabling shared memory pixmaps
+[    38.735] (==) NVIDIA(0): Backing store enabled
+[    38.735] (==) NVIDIA(0): Silken mouse enabled
+[    38.736] (**) NVIDIA(0): DPMS enabled
+[    38.736] (II) Loading sub module "dri2"
+[    38.736] (II) LoadModule: "dri2"
+[    38.736] (II) Module "dri2" already built-in
+[    38.736] (II) NVIDIA(0): [DRI2] Setup complete
+[    38.736] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[    38.736] (--) RandR disabled
+[    38.741] (II) SELinux: Disabled on system
+[    38.742] (II) Initializing extension GLX
+[    40.478] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    40.478] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    40.478] (**) Power Button: Applying InputClass "system-keyboard"
+[    40.478] (II) LoadModule: "evdev"
+[    40.478] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[    40.583] (II) Module evdev: vendor="X.Org Foundation"
+[    40.583] 	compiled for 1.19.3, module version = 2.10.5
+[    40.583] 	Module class: X.Org XInput Driver
+[    40.583] 	ABI class: X.Org XInput driver, version 24.1
+[    40.583] (II) Using input driver 'evdev' for 'Power Button'
+[    40.583] (**) Power Button: always reports core events
+[    40.583] (**) evdev: Power Button: Device: "/dev/input/event3"
+[    40.583] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    40.583] (--) evdev: Power Button: Found keys
+[    40.583] (II) evdev: Power Button: Configuring as keyboard
+[    40.583] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    40.583] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    40.583] (**) Option "xkb_rules" "evdev"
+[    40.583] (**) Option "xkb_layout" "in"
+[    40.583] (**) Option "xkb_variant" "eng"
+[    41.048] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    41.048] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    41.048] (**) Video Bus: Applying InputClass "system-keyboard"
+[    41.048] (II) Using input driver 'evdev' for 'Video Bus'
+[    41.048] (**) Video Bus: always reports core events
+[    41.049] (**) evdev: Video Bus: Device: "/dev/input/event5"
+[    41.049] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[    41.049] (--) evdev: Video Bus: Found keys
+[    41.049] (II) evdev: Video Bus: Configuring as keyboard
+[    41.049] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:13/LNXVIDEO:00/input/input5/event5"
+[    41.049] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    41.049] (**) Option "xkb_rules" "evdev"
+[    41.049] (**) Option "xkb_layout" "in"
+[    41.049] (**) Option "xkb_variant" "eng"
+[    41.050] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    41.050] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    41.050] (**) Power Button: Applying InputClass "system-keyboard"
+[    41.050] (II) Using input driver 'evdev' for 'Power Button'
+[    41.050] (**) Power Button: always reports core events
+[    41.050] (**) evdev: Power Button: Device: "/dev/input/event1"
+[    41.050] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    41.050] (--) evdev: Power Button: Found keys
+[    41.050] (II) evdev: Power Button: Configuring as keyboard
+[    41.050] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input1/event1"
+[    41.050] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    41.050] (**) Option "xkb_rules" "evdev"
+[    41.050] (**) Option "xkb_layout" "in"
+[    41.050] (**) Option "xkb_variant" "eng"
+[    41.051] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    41.051] (II) No input driver specified, ignoring this device.
+[    41.051] (II) This device may have been added with another device file.
+[    41.051] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[    41.051] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[    41.051] (**) Sleep Button: Applying InputClass "system-keyboard"
+[    41.051] (II) Using input driver 'evdev' for 'Sleep Button'
+[    41.051] (**) Sleep Button: always reports core events
+[    41.051] (**) evdev: Sleep Button: Device: "/dev/input/event2"
+[    41.051] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[    41.051] (--) evdev: Sleep Button: Found keys
+[    41.051] (II) evdev: Sleep Button: Configuring as keyboard
+[    41.051] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0E:00/input/input2/event2"
+[    41.051] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    41.051] (**) Option "xkb_rules" "evdev"
+[    41.051] (**) Option "xkb_layout" "in"
+[    41.051] (**) Option "xkb_variant" "eng"
+[    41.052] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event13)
+[    41.052] (II) No input driver specified, ignoring this device.
+[    41.052] (II) This device may have been added with another device file.
+[    41.053] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event14)
+[    41.053] (II) No input driver specified, ignoring this device.
+[    41.053] (II) This device may have been added with another device file.
+[    41.053] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event15)
+[    41.053] (II) No input driver specified, ignoring this device.
+[    41.053] (II) This device may have been added with another device file.
+[    41.054] (II) config/udev: Adding input device Laptop_Integrated_Webcam_FHD (/dev/input/event17)
+[    41.054] (**) Laptop_Integrated_Webcam_FHD: Applying InputClass "evdev keyboard catchall"
+[    41.054] (**) Laptop_Integrated_Webcam_FHD: Applying InputClass "system-keyboard"
+[    41.054] (II) Using input driver 'evdev' for 'Laptop_Integrated_Webcam_FHD'
+[    41.054] (**) Laptop_Integrated_Webcam_FHD: always reports core events
+[    41.054] (**) evdev: Laptop_Integrated_Webcam_FHD: Device: "/dev/input/event17"
+[    41.054] (--) evdev: Laptop_Integrated_Webcam_FHD: Vendor 0x1bcf Product 0x2802
+[    41.054] (--) evdev: Laptop_Integrated_Webcam_FHD: Found keys
+[    41.054] (II) evdev: Laptop_Integrated_Webcam_FHD: Configuring as keyboard
+[    41.054] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.5/1-1.5:1.0/input/input17/event17"
+[    41.054] (II) XINPUT: Adding extended input device "Laptop_Integrated_Webcam_FHD" (type: KEYBOARD, id 10)
+[    41.054] (**) Option "xkb_rules" "evdev"
+[    41.054] (**) Option "xkb_layout" "in"
+[    41.054] (**) Option "xkb_variant" "eng"
+[    41.055] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event10)
+[    41.055] (II) No input driver specified, ignoring this device.
+[    41.055] (II) This device may have been added with another device file.
+[    41.055] (II) config/udev: Adding input device HDA Intel PCH Dock Line Out (/dev/input/event11)
+[    41.055] (II) No input driver specified, ignoring this device.
+[    41.055] (II) This device may have been added with another device file.
+[    41.056] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event12)
+[    41.056] (II) No input driver specified, ignoring this device.
+[    41.056] (II) This device may have been added with another device file.
+[    41.057] (II) config/udev: Adding input device HDA Intel PCH Dock Mic (/dev/input/event9)
+[    41.057] (II) No input driver specified, ignoring this device.
+[    41.057] (II) This device may have been added with another device file.
+[    41.057] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    41.057] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    41.057] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    41.057] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    41.057] (**) AT Translated Set 2 keyboard: always reports core events
+[    41.057] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event4"
+[    41.057] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    41.057] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    41.057] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    41.057] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[    41.057] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    41.057] (**) Option "xkb_rules" "evdev"
+[    41.057] (**) Option "xkb_layout" "in"
+[    41.057] (**) Option "xkb_variant" "eng"
+[    41.058] (II) config/udev: Adding input device DualPoint Stick (/dev/input/event6)
+[    41.058] (**) DualPoint Stick: Applying InputClass "evdev pointer catchall"
+[    41.058] (II) Using input driver 'evdev' for 'DualPoint Stick'
+[    41.058] (**) DualPoint Stick: always reports core events
+[    41.058] (**) evdev: DualPoint Stick: Device: "/dev/input/event6"
+[    41.058] (--) evdev: DualPoint Stick: Vendor 0x2 Product 0x8
+[    41.058] (--) evdev: DualPoint Stick: Found 3 mouse buttons
+[    41.058] (--) evdev: DualPoint Stick: Found relative axes
+[    41.058] (--) evdev: DualPoint Stick: Found x and y relative axes
+[    41.058] (II) evdev: DualPoint Stick: Configuring as mouse
+[    41.058] (**) evdev: DualPoint Stick: YAxisMapping: buttons 4 and 5
+[    41.058] (**) evdev: DualPoint Stick: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    41.058] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input6/event6"
+[    41.058] (II) XINPUT: Adding extended input device "DualPoint Stick" (type: MOUSE, id 12)
+[    41.059] (II) evdev: DualPoint Stick: initialized for relative axes.
+[    41.059] (**) DualPoint Stick: (accel) keeping acceleration scheme 1
+[    41.059] (**) DualPoint Stick: (accel) acceleration profile 0
+[    41.059] (**) DualPoint Stick: (accel) acceleration factor: 2.000
+[    41.059] (**) DualPoint Stick: (accel) acceleration threshold: 4
+[    41.059] (II) config/udev: Adding input device DualPoint Stick (/dev/input/mouse0)
+[    41.059] (II) No input driver specified, ignoring this device.
+[    41.059] (II) This device may have been added with another device file.
+[    41.060] (II) config/udev: Adding input device AlpsPS/2 ALPS DualPoint TouchPad (/dev/input/event7)
+[    41.060] (**) AlpsPS/2 ALPS DualPoint TouchPad: Applying InputClass "evdev touchpad catchall"
+[    41.060] (**) AlpsPS/2 ALPS DualPoint TouchPad: Applying InputClass "touchpad catchall"
+[    41.060] (**) AlpsPS/2 ALPS DualPoint TouchPad: Applying InputClass "Default clickpad buttons"
+[    41.060] (II) LoadModule: "synaptics"
+[    41.060] (II) Loading /usr/lib64/xorg/modules/input/synaptics_drv.so
+[    41.172] (II) Module synaptics: vendor="X.Org Foundation"
+[    41.172] 	compiled for 1.19.3, module version = 1.9.0
+[    41.173] 	Module class: X.Org XInput Driver
+[    41.173] 	ABI class: X.Org XInput driver, version 24.1
+[    41.173] (II) Using input driver 'synaptics' for 'AlpsPS/2 ALPS DualPoint TouchPad'
+[    41.173] (**) AlpsPS/2 ALPS DualPoint TouchPad: always reports core events
+[    41.173] (**) Option "Device" "/dev/input/event7"
+[    41.184] (II) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: ignoring touch events for semi-multitouch device
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: x-axis range 0 - 2000 (res 0)
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: y-axis range 0 - 1400 (res 0)
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: pressure range 0 - 127
+[    41.184] (II) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: device does not report finger width.
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: buttons: left right middle double triple
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: Vendor 0x2 Product 0x8
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: invalid finger width range.  defaulting to 0 - 15
+[    41.184] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[    41.184] (**) AlpsPS/2 ALPS DualPoint TouchPad: always reports core events
+[    41.197] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input7/event7"
+[    41.197] (II) XINPUT: Adding extended input device "AlpsPS/2 ALPS DualPoint TouchPad" (type: TOUCHPAD, id 13)
+[    41.197] (**) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: (accel) MinSpeed is now constant deceleration 2.5
+[    41.197] (**) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: (accel) MaxSpeed is now 1.75
+[    41.197] (**) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: (accel) AccelFactor is now 0.082
+[    41.197] (**) AlpsPS/2 ALPS DualPoint TouchPad: (accel) keeping acceleration scheme 1
+[    41.197] (**) AlpsPS/2 ALPS DualPoint TouchPad: (accel) acceleration profile 1
+[    41.197] (**) AlpsPS/2 ALPS DualPoint TouchPad: (accel) acceleration factor: 2.000
+[    41.197] (**) AlpsPS/2 ALPS DualPoint TouchPad: (accel) acceleration threshold: 4
+[    41.197] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[    41.198] (II) config/udev: Adding input device AlpsPS/2 ALPS DualPoint TouchPad (/dev/input/mouse1)
+[    41.198] (II) No input driver specified, ignoring this device.
+[    41.198] (II) This device may have been added with another device file.
+[    41.198] (II) config/udev: Adding input device PC Speaker (/dev/input/event8)
+[    41.198] (II) No input driver specified, ignoring this device.
+[    41.198] (II) This device may have been added with another device file.
+[    41.198] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event16)
+[    41.198] (**) Dell WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[    41.198] (**) Dell WMI hotkeys: Applying InputClass "system-keyboard"
+[    41.198] (II) Using input driver 'evdev' for 'Dell WMI hotkeys'
+[    41.198] (**) Dell WMI hotkeys: always reports core events
+[    41.199] (**) evdev: Dell WMI hotkeys: Device: "/dev/input/event16"
+[    41.199] (--) evdev: Dell WMI hotkeys: Vendor 0 Product 0
+[    41.199] (--) evdev: Dell WMI hotkeys: Found keys
+[    41.199] (II) evdev: Dell WMI hotkeys: Configuring as keyboard
+[    41.199] (**) Option "config_info" "udev:/sys/devices/virtual/input/input16/event16"
+[    41.199] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 14)
+[    41.199] (**) Option "xkb_rules" "evdev"
+[    41.199] (**) Option "xkb_layout" "in"
+[    41.199] (**) Option "xkb_variant" "eng"
+[    41.335] AUDIT: Fri Apr 20 07:49:35 2018: 1236: client 1 connected from local host ( uid=0 gid=0 pid=1825 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    41.343] AUDIT: Fri Apr 20 07:49:35 2018: 1236: client 1 disconnected
+[    41.430] AUDIT: Fri Apr 20 07:49:35 2018: 1236: client 1 connected from local host ( uid=0 gid=0 pid=1827 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    41.432] AUDIT: Fri Apr 20 07:49:35 2018: 1236: client 1 disconnected
+[    41.437] AUDIT: Fri Apr 20 07:49:35 2018: 1236: client 1 connected from local host ( uid=0 gid=0 pid=1219 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.521] AUDIT: Fri Apr 20 07:49:38 2018: 1236: client 2 connected from local host ( uid=42 gid=42 pid=1869 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.666] AUDIT: Fri Apr 20 07:49:38 2018: 1236: client 3 connected from local host ( uid=42 gid=42 pid=1871 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.868] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 connected from local host ( uid=42 gid=42 pid=1871 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.869] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 disconnected
+[    44.898] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 connected from local host ( uid=42 gid=42 pid=1873 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.899] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 disconnected
+[    44.939] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 connected from local host ( uid=42 gid=42 pid=1873 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.939] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 disconnected
+[    44.979] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 connected from local host ( uid=42 gid=42 pid=1880 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.980] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 disconnected
+[    44.981] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 4 connected from local host ( uid=42 gid=42 pid=1880 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    44.991] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 5 connected from local host ( uid=42 gid=42 pid=1881 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    45.563] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 5 disconnected
+[    45.628] AUDIT: Fri Apr 20 07:49:39 2018: 1236: client 3 disconnected
+[    47.313] AUDIT: Fri Apr 20 07:49:41 2018: 1236: client 3 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    47.314] AUDIT: Fri Apr 20 07:49:41 2018: 1236: client 3 disconnected
+[    47.327] AUDIT: Fri Apr 20 07:49:41 2018: 1236: client 3 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    47.330] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    47.330] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    47.331] (--) NVIDIA(GPU-0): 
+[    47.331] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    47.331] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    47.331] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    47.331] (--) NVIDIA(GPU-0): 
+[    47.331] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    47.331] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    47.331] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    47.331] (--) NVIDIA(GPU-0): 
+[    47.331] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    47.331] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    47.331] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    47.331] (--) NVIDIA(GPU-0): 
+[    47.332] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    47.332] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    47.332] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    47.332] (--) NVIDIA(GPU-0): 
+[    47.332] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    47.332] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    47.332] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    47.332] (--) NVIDIA(GPU-0): 
+[    47.332] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    47.332] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    47.332] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    47.332] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    48.453] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    48.453] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    48.453] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    48.453] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    48.453] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    48.453] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    48.453] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    48.453] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    48.453] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    48.453] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    48.453] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.453] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    48.453] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    48.453] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    48.453] (--) NVIDIA(GPU-0): 
+[    48.590] AUDIT: Fri Apr 20 07:49:42 2018: 1236: client 5 connected from local host ( uid=42 gid=42 pid=1935 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    48.591] AUDIT: Fri Apr 20 07:49:42 2018: 1236: client 6 connected from local host ( uid=42 gid=42 pid=1935 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    48.646] AUDIT: Fri Apr 20 07:49:42 2018: 1236: client 7 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    48.657] AUDIT: Fri Apr 20 07:49:42 2018: 1236: client 8 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    48.657] AUDIT: Fri Apr 20 07:49:42 2018: 1236: client 8 disconnected
+[    48.978] AUDIT: Fri Apr 20 07:49:43 2018: 1236: client 8 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    48.978] AUDIT: Fri Apr 20 07:49:43 2018: 1236: client 8 disconnected
+[    49.176] AUDIT: Fri Apr 20 07:49:43 2018: 1236: client 8 connected from local host ( uid=42 gid=42 pid=1940 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    49.176] AUDIT: Fri Apr 20 07:49:43 2018: 1236: client 8 disconnected
+[    53.676] AUDIT: Fri Apr 20 07:49:47 2018: 1236: client 8 connected from local host ( uid=42 gid=42 pid=2149 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    53.937] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 9 connected from local host ( uid=42 gid=42 pid=1888 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    53.937] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 9 disconnected
+[    54.403] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 9 connected from local host ( uid=42 gid=42 pid=2162 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    54.411] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 10 connected from local host ( uid=42 gid=42 pid=2162 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    54.411] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 10 disconnected
+[    54.579] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 10 connected from local host ( uid=42 gid=42 pid=2162 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    54.579] AUDIT: Fri Apr 20 07:49:48 2018: 1236: client 10 disconnected
+[    54.913] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    54.913] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    54.913] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    54.913] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    54.913] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    54.913] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    54.913] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    54.913] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    54.913] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    54.913] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    54.913] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    54.913] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    54.913] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    54.913] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    54.913] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    54.913] (--) NVIDIA(GPU-0): 
+[    56.260] AUDIT: Fri Apr 20 07:49:50 2018: 1236: client 10 connected from local host ( uid=42 gid=42 pid=2162 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    56.260] AUDIT: Fri Apr 20 07:49:50 2018: 1236: client 10 disconnected
+[    56.592] AUDIT: Fri Apr 20 07:49:50 2018: 1236: client 10 connected from local host ( uid=42 gid=42 pid=2149 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    56.592] AUDIT: Fri Apr 20 07:49:50 2018: 1236: client 10 disconnected
+[    57.154] AUDIT: Fri Apr 20 07:49:51 2018: 1236: client 10 connected from local host ( uid=42 gid=42 pid=2162 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    57.162] AUDIT: Fri Apr 20 07:49:51 2018: 1236: client 10 disconnected
+[    64.762] AUDIT: Fri Apr 20 07:49:59 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=1417 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    64.762] AUDIT: Fri Apr 20 07:49:59 2018: 1236: client 10 disconnected
+[    64.762] AUDIT: Fri Apr 20 07:49:59 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=1417 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    64.763] AUDIT: Fri Apr 20 07:49:59 2018: 1236: client 10 disconnected
+[    66.964] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 5 disconnected
+[    66.964] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 6 disconnected
+[    66.965] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 5 connected from local host ( uid=42 gid=42 pid=1873 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    66.969] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 5 disconnected
+[    66.969] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 4 disconnected
+[    66.984] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 8 disconnected
+[    66.989] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 9 disconnected
+[    66.993] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 3 disconnected
+[    67.066] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 disconnected
+[    67.108] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 7 disconnected
+[    67.108] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 connected from local host ( uid=0 gid=0 pid=2281 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.109] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 disconnected
+[    67.110] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 connected from local host ( uid=0 gid=0 pid=2282 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.110] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 disconnected
+[    67.139] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 2 connected from local host ( uid=0 gid=0 pid=2287 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.195] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2290 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.309] AUDIT: Fri Apr 20 07:50:01 2018: 1236: client 3 disconnected
+[    67.736] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2411 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.737] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 disconnected
+[    67.785] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2413 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    67.785] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 disconnected
+[    68.098] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2436 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    68.099] AUDIT: Fri Apr 20 07:50:02 2018: 1236: client 3 disconnected
+[    68.693] AUDIT: Fri Apr 20 07:50:03 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2444 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    68.700] AUDIT: Fri Apr 20 07:50:03 2018: 1236: client 3 disconnected
+[    68.778] AUDIT: Fri Apr 20 07:50:03 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2448 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    68.779] AUDIT: Fri Apr 20 07:50:03 2018: 1236: client 3 disconnected
+[    68.780] AUDIT: Fri Apr 20 07:50:03 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2448 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    69.937] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 connected from local host ( uid=0 gid=0 pid=2458 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    69.958] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 disconnected
+[    70.227] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 connected from local host ( uid=0 gid=0 pid=2479 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    70.231] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 disconnected
+[    70.233] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 connected from local host ( uid=0 gid=0 pid=2480 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    70.234] AUDIT: Fri Apr 20 07:50:04 2018: 1236: client 4 disconnected
+[    71.856] AUDIT: Fri Apr 20 07:50:06 2018: 1236: client 4 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    72.197] AUDIT: Fri Apr 20 07:50:06 2018: 1236: client 5 connected from local host ( uid=0 gid=0 pid=2499 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    74.214] AUDIT: Fri Apr 20 07:50:08 2018: 1236: client 6 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    74.230] AUDIT: Fri Apr 20 07:50:08 2018: 1236: client 6 disconnected
+[    75.522] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    75.522] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    75.522] (--) NVIDIA(GPU-0): 
+[    75.522] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    75.522] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    75.522] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    75.522] (--) NVIDIA(GPU-0): 
+[    75.522] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    75.522] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    75.522] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    75.522] (--) NVIDIA(GPU-0): 
+[    75.523] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    75.523] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    75.523] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    75.523] (--) NVIDIA(GPU-0): 
+[    75.523] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    75.523] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    75.523] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    75.523] (--) NVIDIA(GPU-0): 
+[    75.523] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    75.523] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    75.523] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    75.523] (--) NVIDIA(GPU-0): 
+[    75.523] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    75.523] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    75.523] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    75.523] (--) NVIDIA(GPU-0): 
+[    75.642] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    75.642] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    75.642] (--) NVIDIA(GPU-0): 
+[    75.642] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    75.642] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    75.642] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    75.642] (--) NVIDIA(GPU-0): 
+[    75.643] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    75.643] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    75.643] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    75.643] (--) NVIDIA(GPU-0): 
+[    75.643] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    75.643] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    75.643] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    75.643] (--) NVIDIA(GPU-0): 
+[    75.643] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    75.643] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    75.643] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    75.643] (--) NVIDIA(GPU-0): 
+[    75.643] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    75.643] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    75.643] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    75.643] (--) NVIDIA(GPU-0): 
+[    75.643] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    75.643] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    75.643] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    75.643] (--) NVIDIA(GPU-0): 
+[    75.661] AUDIT: Fri Apr 20 07:50:09 2018: 1236: client 6 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    75.678] AUDIT: Fri Apr 20 07:50:09 2018: 1236: client 7 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    75.693] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 7 disconnected
+[    75.698] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 7 connected from local host ( uid=0 gid=0 pid=2509 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    75.700] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 7 disconnected
+[    75.720] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 7 connected from local host ( uid=0 gid=0 pid=2509 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.042] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2513 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.099] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 9 connected from local host ( uid=0 gid=0 pid=2518 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.135] AUDIT: Fri Apr 20 07:50:10 2018: 1236: client 9 disconnected
+[    76.810] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 9 connected from local host ( uid=0 gid=0 pid=2522 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.841] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.842] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 disconnected
+[    76.843] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.853] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 disconnected
+[    76.935] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 connected from local host ( uid=0 gid=0 pid=2525 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    76.936] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 disconnected
+[    76.948] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    76.948] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    76.948] (--) NVIDIA(GPU-0): 
+[    76.949] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[    76.949] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[    76.949] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[    76.949] (--) NVIDIA(GPU-0): 
+[    76.949] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    76.949] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    76.949] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    76.949] (--) NVIDIA(GPU-0): 
+[    76.950] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    76.950] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    76.950] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    76.950] (--) NVIDIA(GPU-0): 
+[    76.950] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    76.950] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[    76.950] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[    76.950] (--) NVIDIA(GPU-0): 
+[    76.950] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    76.950] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[    76.950] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[    76.950] (--) NVIDIA(GPU-0): 
+[    76.950] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    76.950] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    76.950] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[    76.950] (--) NVIDIA(GPU-0): 
+[    76.950] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 6 connected from local host ( uid=0 gid=0 pid=2525 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    77.003] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 11 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    77.035] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 11 disconnected
+[    77.036] AUDIT: Fri Apr 20 07:50:11 2018: 1236: client 11 connected from local host ( uid=0 gid=0 pid=2529 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    77.965] AUDIT: Fri Apr 20 07:50:12 2018: 1236: client 12 connected from local host ( uid=0 gid=0 pid=2541 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    77.973] AUDIT: Fri Apr 20 07:50:12 2018: 1236: client 13 connected from local host ( uid=0 gid=0 pid=2541 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    78.740] AUDIT: Fri Apr 20 07:50:13 2018: 1236: client 14 connected from local host ( uid=0 gid=0 pid=2551 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    82.351] AUDIT: Fri Apr 20 07:50:16 2018: 1236: client 15 connected from local host ( uid=0 gid=0 pid=2558 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    82.931] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 16 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    82.931] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 disconnected
+[    82.932] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    82.945] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 disconnected
+[    82.973] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    82.973] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 disconnected
+[    83.007] AUDIT: Fri Apr 20 07:50:17 2018: 1236: client 10 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.416] AUDIT: Fri Apr 20 07:50:20 2018: 1236: client 17 connected from local host ( uid=0 gid=0 pid=2590 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.464] AUDIT: Fri Apr 20 07:50:20 2018: 1236: client 18 connected from local host ( uid=0 gid=0 pid=2595 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.466] AUDIT: Fri Apr 20 07:50:20 2018: 1236: client 18 disconnected
+[    86.471] AUDIT: Fri Apr 20 07:50:20 2018: 1236: client 18 connected from local host ( uid=0 gid=0 pid=2596 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.557] AUDIT: Fri Apr 20 07:50:20 2018: 1236: client 17 disconnected
+[    86.727] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 disconnected
+[    86.859] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 18 disconnected
+[    86.915] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2522 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.918] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 disconnected
+[    86.995] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2604 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    86.995] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 disconnected
+[    87.007] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2607 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.008] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 disconnected
+[    87.222] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 3 connected from local host ( uid=0 gid=0 pid=2618 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.260] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 17 connected from local host ( uid=0 gid=0 pid=2620 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.569] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 18 connected from local host ( uid=0 gid=0 pid=2623 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.585] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 19 connected from local host ( uid=0 gid=0 pid=2605 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.600] AUDIT: Fri Apr 20 07:50:21 2018: 1236: client 19 disconnected
+[    87.823] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 connected from local host ( uid=0 gid=0 pid=2499 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.824] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 disconnected
+[    87.855] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 connected from local host ( uid=0 gid=0 pid=2499 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.856] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 disconnected
+[    87.859] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 connected from local host ( uid=0 gid=0 pid=2678 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.859] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 disconnected
+[    87.901] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 19 connected from local host ( uid=0 gid=0 pid=2612 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.908] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2681 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.908] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 disconnected
+[    87.917] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2682 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.917] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 disconnected
+[    87.946] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2684 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    87.947] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 disconnected
+[    88.000] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2625 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.010] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 connected from local host ( uid=0 gid=0 pid=2625 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.010] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 disconnected
+[    88.013] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 connected from local host ( uid=0 gid=0 pid=2693 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.014] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 disconnected
+[    88.022] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 connected from local host ( uid=0 gid=0 pid=2693 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.023] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 disconnected
+[    88.028] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 connected from local host ( uid=0 gid=0 pid=2700 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.029] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 disconnected
+[    88.031] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 21 connected from local host ( uid=0 gid=0 pid=2700 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.119] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 22 connected from local host ( uid=0 gid=0 pid=2703 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.254] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 9 disconnected
+[    88.639] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 9 connected from local host ( uid=0 gid=0 pid=2719 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.659] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2620 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.660] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 23 disconnected
+[    88.661] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2620 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    88.662] AUDIT: Fri Apr 20 07:50:22 2018: 1236: client 23 disconnected
+[    89.067] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    89.068] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 disconnected
+[    89.069] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    89.069] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 disconnected
+[    89.604] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    89.604] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 disconnected
+[    89.630] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    89.630] AUDIT: Fri Apr 20 07:50:23 2018: 1236: client 23 disconnected
+[    89.730] AUDIT: Fri Apr 20 07:50:24 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[    89.731] AUDIT: Fri Apr 20 07:50:24 2018: 1236: client 23 disconnected
+[   100.810] AUDIT: Fri Apr 20 07:50:35 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   100.814] AUDIT: Fri Apr 20 07:50:35 2018: 1236: client 16 disconnected
+[   100.815] AUDIT: Fri Apr 20 07:50:35 2018: 1236: client 16 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   100.829] AUDIT: Fri Apr 20 07:50:35 2018: 1236: client 16 disconnected
+[   102.501] AUDIT: Fri Apr 20 07:50:36 2018: 1236: client 16 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   102.511] AUDIT: Fri Apr 20 07:50:36 2018: 1236: client 24 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   102.512] AUDIT: Fri Apr 20 07:50:36 2018: 1236: client 24 disconnected
+[   102.605] AUDIT: Fri Apr 20 07:50:36 2018: 1236: client 24 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   103.447] AUDIT: Fri Apr 20 07:50:37 2018: 1236: client 25 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   103.509] AUDIT: Fri Apr 20 07:50:37 2018: 1236: client 26 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   103.510] AUDIT: Fri Apr 20 07:50:37 2018: 1236: client 26 disconnected
+[   104.160] AUDIT: Fri Apr 20 07:50:38 2018: 1236: client 26 connected from local host ( uid=0 gid=0 pid=2876 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   104.162] AUDIT: Fri Apr 20 07:50:38 2018: 1236: client 27 connected from local host ( uid=0 gid=0 pid=2876 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   104.331] AUDIT: Fri Apr 20 07:50:38 2018: 1236: client 28 connected from local host ( uid=0 gid=0 pid=2876 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   105.151] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   105.152] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 disconnected
+[   105.152] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   105.292] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 disconnected
+[   105.295] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2889 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   105.296] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 disconnected
+[   105.305] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2889 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   105.600] AUDIT: Fri Apr 20 07:50:39 2018: 1236: client 23 disconnected
+[   106.444] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   106.445] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 disconnected
+[   106.446] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   106.451] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 disconnected
+[   106.454] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2895 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   106.455] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 disconnected
+[   106.464] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2895 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   106.511] AUDIT: Fri Apr 20 07:50:40 2018: 1236: client 29 disconnected
+[   111.263] AUDIT: Fri Apr 20 07:50:45 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=3030 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   111.263] AUDIT: Fri Apr 20 07:50:45 2018: 1236: client 29 disconnected
+[   111.436] AUDIT: Fri Apr 20 07:50:45 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=3030 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   111.600] AUDIT: Fri Apr 20 07:50:45 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=3030 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[   111.601] AUDIT: Fri Apr 20 07:50:45 2018: 1236: client 30 disconnected
+[   116.200] AUDIT: Fri Apr 20 07:50:50 2018: 1236: client 29 disconnected
+[  1764.664] AUDIT: Fri Apr 20 08:18:18 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  1764.665] AUDIT: Fri Apr 20 08:18:18 2018: 1236: client 29 disconnected
+[  1929.569] AUDIT: Fri Apr 20 08:21:03 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  1929.570] AUDIT: Fri Apr 20 08:21:03 2018: 1236: client 29 disconnected
+[  2079.284] AUDIT: Fri Apr 20 08:23:33 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  2079.284] AUDIT: Fri Apr 20 08:23:33 2018: 1236: client 29 disconnected
+[  2777.113] AUDIT: Fri Apr 20 08:35:11 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=4674 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  2782.916] AUDIT: Fri Apr 20 08:39:57 2018: 1236: client 8 disconnected
+[  2783.135] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[  2783.135] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[  2783.135] (--) NVIDIA(GPU-0): 
+[  2783.136] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[  2783.136] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[  2783.136] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[  2783.136] (--) NVIDIA(GPU-0): 
+[  2783.137] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  2783.137] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  2783.137] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  2783.137] (--) NVIDIA(GPU-0): 
+[  2783.137] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  2783.137] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  2783.137] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  2783.137] (--) NVIDIA(GPU-0): 
+[  2783.138] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  2783.138] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[  2783.138] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[  2783.138] (--) NVIDIA(GPU-0): 
+[  2783.138] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  2783.138] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[  2783.138] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[  2783.138] (--) NVIDIA(GPU-0): 
+[  2783.138] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  2783.138] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  2783.138] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[  2783.138] (--) NVIDIA(GPU-0): 
+[  2783.189] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[  2784.002] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  2784.002] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[  2784.002] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[  2784.002] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[  2784.002] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[  2784.002] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[  2784.002] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  2784.002] (II) NVIDIA(0):     Config Options in the README.
+[  2784.050] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[  2784.787] AUDIT: Fri Apr 20 08:39:59 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=4839 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  2784.977] AUDIT: Fri Apr 20 08:39:59 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=4840 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  2785.761] AUDIT: Fri Apr 20 08:40:00 2018: 1236: client 8 disconnected
+[  2785.897] AUDIT: Fri Apr 20 08:40:00 2018: 1236: client 30 disconnected
+[  2786.552] AUDIT: Fri Apr 20 08:40:01 2018: 1236: client 29 disconnected
+[  3214.308] AUDIT: Fri Apr 20 08:47:09 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3214.316] AUDIT: Fri Apr 20 08:47:09 2018: 1236: client 23 disconnected
+[  3214.317] AUDIT: Fri Apr 20 08:47:09 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3214.346] AUDIT: Fri Apr 20 08:47:09 2018: 1236: client 23 disconnected
+[  3215.205] AUDIT: Fri Apr 20 08:47:10 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=5246 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3215.243] AUDIT: Fri Apr 20 08:47:10 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=5260 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3215.610] AUDIT: Fri Apr 20 08:47:10 2018: 1236: client 29 disconnected
+[  3215.789] AUDIT: Fri Apr 20 08:47:10 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=5246 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3215.918] AUDIT: Fri Apr 20 08:47:10 2018: 1236: client 29 disconnected
+[  3220.367] AUDIT: Fri Apr 20 08:47:15 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=5246 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3257.309] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3257.316] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 disconnected
+[  3257.318] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3257.543] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=5313 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3257.545] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 31 disconnected
+[  3257.551] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 disconnected
+[  3257.580] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=5314 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3257.607] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 disconnected
+[  3257.682] AUDIT: Fri Apr 20 08:47:52 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=5314 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  3382.152] AUDIT: Fri Apr 20 08:49:57 2018: 1236: client 20 disconnected
+[  6031.455] AUDIT: Fri Apr 20 09:34:06 2018: 1236: client 29 disconnected
+[  6031.524] AUDIT: Fri Apr 20 09:34:06 2018: 1236: client 23 disconnected
+[  6033.008] AUDIT: Fri Apr 20 09:34:07 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6033.015] AUDIT: Fri Apr 20 09:34:07 2018: 1236: client 30 disconnected
+[  6033.019] AUDIT: Fri Apr 20 09:34:07 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6033.086] AUDIT: Fri Apr 20 09:34:08 2018: 1236: client 23 disconnected
+[  6037.704] AUDIT: Fri Apr 20 09:34:12 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6037.719] AUDIT: Fri Apr 20 09:34:12 2018: 1236: client 20 disconnected
+[  6037.720] AUDIT: Fri Apr 20 09:34:12 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6037.760] AUDIT: Fri Apr 20 09:34:12 2018: 1236: client 20 disconnected
+[  6039.374] AUDIT: Fri Apr 20 09:34:14 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=7196 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6039.422] AUDIT: Fri Apr 20 09:34:14 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=7196 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6039.424] AUDIT: Fri Apr 20 09:34:14 2018: 1236: client 29 disconnected
+[  6039.812] AUDIT: Fri Apr 20 09:34:14 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=7196 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6040.525] AUDIT: Fri Apr 20 09:34:15 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=7196 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6040.741] AUDIT: Fri Apr 20 09:34:15 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=7196 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6040.743] AUDIT: Fri Apr 20 09:34:15 2018: 1236: client 31 disconnected
+[  6041.763] AUDIT: Fri Apr 20 09:34:16 2018: 1236: client 20 disconnected
+[  6041.768] AUDIT: Fri Apr 20 09:34:16 2018: 1236: client 29 disconnected
+[  6041.769] AUDIT: Fri Apr 20 09:34:16 2018: 1236: client 30 disconnected
+[  6041.931] AUDIT: Fri Apr 20 09:34:16 2018: 1236: client 20 connected from local host ( uid=0 gid=0 pid=7179 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  6042.966] AUDIT: Fri Apr 20 09:34:17 2018: 1236: client 29 connected from local host ( uid=0 gid=0 pid=7179 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  7193.078] AUDIT: Fri Apr 20 09:53:27 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=8146 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  7201.274] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[  7201.274] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[  7201.274] (--) NVIDIA(GPU-0): 
+[  7201.275] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[  7201.275] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[  7201.275] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[  7201.276] (--) NVIDIA(GPU-0): 
+[  7201.276] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  7201.276] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  7201.276] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  7201.276] (--) NVIDIA(GPU-0): 
+[  7201.277] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  7201.277] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  7201.277] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  7201.277] (--) NVIDIA(GPU-0): 
+[  7201.277] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  7201.277] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[  7201.277] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[  7201.277] (--) NVIDIA(GPU-0): 
+[  7201.277] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  7201.277] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[  7201.278] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[  7201.278] (--) NVIDIA(GPU-0): 
+[  7201.278] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  7201.278] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  7201.278] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[  7201.278] (--) NVIDIA(GPU-0): 
+[  7201.314] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[  7202.116] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  7202.116] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[  7202.116] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[  7202.116] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[  7202.116] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[  7202.116] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[  7202.116] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  7202.116] (II) NVIDIA(0):     Config Options in the README.
+[  7202.164] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[  7202.560] AUDIT: Fri Apr 20 11:01:46 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=8294 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  7202.770] AUDIT: Fri Apr 20 11:01:46 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=8295 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  7203.616] AUDIT: Fri Apr 20 11:01:47 2018: 1236: client 31 disconnected
+[  7203.920] AUDIT: Fri Apr 20 11:01:47 2018: 1236: client 32 disconnected
+[  7205.108] AUDIT: Fri Apr 20 11:01:48 2018: 1236: client 30 disconnected
+[  7335.050] AUDIT: Fri Apr 20 11:03:58 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  7335.052] AUDIT: Fri Apr 20 11:03:58 2018: 1236: client 30 disconnected
+[  9410.757] AUDIT: Fri Apr 20 11:38:34 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9410.758] AUDIT: Fri Apr 20 11:38:34 2018: 1236: client 30 disconnected
+[  9444.264] AUDIT: Fri Apr 20 11:39:07 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9444.265] AUDIT: Fri Apr 20 11:39:07 2018: 1236: client 30 disconnected
+[  9484.945] AUDIT: Fri Apr 20 11:39:48 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9484.947] AUDIT: Fri Apr 20 11:39:48 2018: 1236: client 30 disconnected
+[  9643.674] AUDIT: Fri Apr 20 11:42:27 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=9860 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9644.398] AUDIT: Fri Apr 20 11:42:27 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9644.415] AUDIT: Fri Apr 20 11:42:27 2018: 1236: client 23 disconnected
+[  9644.520] AUDIT: Fri Apr 20 11:42:28 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9644.796] AUDIT: Fri Apr 20 11:42:28 2018: 1236: client 23 disconnected
+[  9644.840] AUDIT: Fri Apr 20 11:42:28 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=9861 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[  9647.310] AUDIT: Fri Apr 20 11:42:30 2018: 1236: client 30 disconnected
+[  9658.885] AUDIT: Fri Apr 20 11:42:42 2018: 1236: client 23 disconnected
+[ 11567.432] AUDIT: Fri Apr 20 12:14:30 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=10769 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 11577.067] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 11577.067] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 11577.067] (--) NVIDIA(GPU-0): 
+[ 11577.068] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 11577.068] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 11577.068] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 11577.068] (--) NVIDIA(GPU-0): 
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 11577.069] (--) NVIDIA(GPU-0): 
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 11577.069] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 11577.069] (--) NVIDIA(GPU-0): 
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 11577.070] (--) NVIDIA(GPU-0): 
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 11577.070] (--) NVIDIA(GPU-0): 
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 11577.070] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 11577.070] (--) NVIDIA(GPU-0): 
+[ 11577.091] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 11578.123] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 11578.123] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 11578.123] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 11578.123] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 11578.123] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 11578.123] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 11578.123] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 11578.123] (II) NVIDIA(0):     Config Options in the README.
+[ 11578.289] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 11579.465] AUDIT: Fri Apr 20 12:33:12 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=10947 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 11579.472] AUDIT: Fri Apr 20 12:33:12 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=10950 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 11580.807] AUDIT: Fri Apr 20 12:33:13 2018: 1236: client 30 disconnected
+[ 11580.816] AUDIT: Fri Apr 20 12:33:13 2018: 1236: client 32 disconnected
+[ 11588.879] AUDIT: Fri Apr 20 12:33:21 2018: 1236: client 23 disconnected
+[ 11697.939] AUDIT: Fri Apr 20 12:35:11 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 11697.941] AUDIT: Fri Apr 20 12:35:11 2018: 1236: client 23 disconnected
+[ 12412.760] AUDIT: Fri Apr 20 12:47:05 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=11366 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 12420.336] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 12420.336] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 12420.336] (--) NVIDIA(GPU-0): 
+[ 12420.337] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 12420.337] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 12420.337] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 12420.337] (--) NVIDIA(GPU-0): 
+[ 12420.338] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 12420.338] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 12420.338] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 12420.338] (--) NVIDIA(GPU-0): 
+[ 12420.338] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 12420.339] (--) NVIDIA(GPU-0): 
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 12420.339] (--) NVIDIA(GPU-0): 
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 12420.339] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 12420.339] (--) NVIDIA(GPU-0): 
+[ 12420.340] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 12420.340] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 12420.340] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 12420.340] (--) NVIDIA(GPU-0): 
+[ 12420.355] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 12421.164] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 12421.164] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 12421.164] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 12421.164] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 12421.164] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 12421.164] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 12421.164] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 12421.164] (II) NVIDIA(0):     Config Options in the README.
+[ 12421.205] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 12421.668] AUDIT: Fri Apr 20 12:59:42 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=11548 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 12421.728] AUDIT: Fri Apr 20 12:59:42 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=11549 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 12422.543] AUDIT: Fri Apr 20 12:59:43 2018: 1236: client 32 disconnected
+[ 12422.584] AUDIT: Fri Apr 20 12:59:43 2018: 1236: client 30 disconnected
+[ 12424.982] AUDIT: Fri Apr 20 12:59:45 2018: 1236: client 23 disconnected
+[ 17000.320] AUDIT: Fri Apr 20 14:16:01 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 17000.322] AUDIT: Fri Apr 20 14:16:01 2018: 1236: client 23 disconnected
+[ 17059.820] AUDIT: Fri Apr 20 14:17:00 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 17059.824] AUDIT: Fri Apr 20 14:17:00 2018: 1236: client 23 disconnected
+[ 24070.971] AUDIT: Fri Apr 20 16:13:51 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 24070.972] AUDIT: Fri Apr 20 16:13:51 2018: 1236: client 23 disconnected
+[ 24671.124] AUDIT: Fri Apr 20 16:23:51 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=15262 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 24677.231] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 24677.231] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 24677.231] (--) NVIDIA(GPU-0): 
+[ 24677.231] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 24677.231] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 24677.231] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 24677.231] (--) NVIDIA(GPU-0): 
+[ 24677.231] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 24677.231] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 24677.231] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 24677.231] (--) NVIDIA(GPU-0): 
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 24677.232] (--) NVIDIA(GPU-0): 
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 24677.232] (--) NVIDIA(GPU-0): 
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 24677.232] (--) NVIDIA(GPU-0): 
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 24677.232] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 24677.232] (--) NVIDIA(GPU-0): 
+[ 24677.238] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 24678.026] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 24678.026] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 24678.026] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 24678.026] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 24678.026] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 24678.026] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 24678.026] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 24678.026] (II) NVIDIA(0):     Config Options in the README.
+[ 24678.046] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 24678.128] AUDIT: Fri Apr 20 19:43:43 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=15446 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 24678.136] AUDIT: Fri Apr 20 19:43:43 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=15447 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 24678.323] AUDIT: Fri Apr 20 19:43:43 2018: 1236: client 32 disconnected
+[ 24678.342] AUDIT: Fri Apr 20 19:43:43 2018: 1236: client 30 disconnected
+[ 24684.026] AUDIT: Fri Apr 20 19:43:49 2018: 1236: client 23 disconnected
+[ 25350.366] AUDIT: Fri Apr 20 19:54:55 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=15848 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25356.048] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 25356.048] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 25356.048] (--) NVIDIA(GPU-0): 
+[ 25356.049] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 25356.049] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 25356.049] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 25356.049] (--) NVIDIA(GPU-0): 
+[ 25356.051] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 25356.051] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 25356.051] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 25356.051] (--) NVIDIA(GPU-0): 
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 25356.052] (--) NVIDIA(GPU-0): 
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 25356.052] (--) NVIDIA(GPU-0): 
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 25356.052] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 25356.053] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 25356.053] (--) NVIDIA(GPU-0): 
+[ 25356.053] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 25356.053] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 25356.053] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 25356.053] (--) NVIDIA(GPU-0): 
+[ 25356.078] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 25356.902] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 25356.902] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 25356.902] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 25356.902] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 25356.902] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 25356.902] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 25356.902] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 25356.902] (II) NVIDIA(0):     Config Options in the README.
+[ 25356.962] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 25358.585] AUDIT: Fri Apr 20 19:56:30 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=16034 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25358.670] AUDIT: Fri Apr 20 19:56:30 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=16038 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25359.332] AUDIT: Fri Apr 20 19:56:31 2018: 1236: client 30 disconnected
+[ 25359.416] AUDIT: Fri Apr 20 19:56:31 2018: 1236: client 32 disconnected
+[ 25361.218] AUDIT: Fri Apr 20 19:56:33 2018: 1236: client 23 disconnected
+[ 25456.538] AUDIT: Fri Apr 20 19:58:08 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25456.552] AUDIT: Fri Apr 20 19:58:08 2018: 1236: client 31 disconnected
+[ 25456.612] AUDIT: Fri Apr 20 19:58:08 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25456.877] AUDIT: Fri Apr 20 19:58:08 2018: 1236: client 30 disconnected
+[ 25456.931] AUDIT: Fri Apr 20 19:58:08 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=16269 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25516.528] AUDIT: Fri Apr 20 19:59:08 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25516.548] AUDIT: Fri Apr 20 19:59:08 2018: 1236: client 23 disconnected
+[ 25516.550] AUDIT: Fri Apr 20 19:59:08 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25516.598] AUDIT: Fri Apr 20 19:59:08 2018: 1236: client 23 disconnected
+[ 25516.854] AUDIT: Fri Apr 20 19:59:08 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=16333 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25518.724] AUDIT: Fri Apr 20 19:59:10 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=16348 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25518.783] AUDIT: Fri Apr 20 19:59:10 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=16346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25518.786] AUDIT: Fri Apr 20 19:59:10 2018: 1236: client 33 disconnected
+[ 25520.829] AUDIT: Fri Apr 20 19:59:12 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=16346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25520.850] AUDIT: Fri Apr 20 19:59:12 2018: 1236: client 32 disconnected
+[ 25522.054] AUDIT: Fri Apr 20 19:59:13 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=16346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25522.056] AUDIT: Fri Apr 20 19:59:13 2018: 1236: client 32 disconnected
+[ 25523.595] AUDIT: Fri Apr 20 19:59:15 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=16346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25523.613] AUDIT: Fri Apr 20 19:59:15 2018: 1236: client 23 disconnected
+[ 25828.964] AUDIT: Fri Apr 20 20:04:20 2018: 1236: client 33 disconnected
+[ 25828.969] AUDIT: Fri Apr 20 20:04:20 2018: 1236: client 32 disconnected
+[ 25954.238] AUDIT: Fri Apr 20 20:06:26 2018: 1236: client 30 disconnected
+[ 25965.877] AUDIT: Fri Apr 20 20:06:37 2018: 1236: client 8 disconnected
+[ 25971.744] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25971.752] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 31 disconnected
+[ 25971.755] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25971.925] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=16632 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25971.943] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 30 disconnected
+[ 25971.950] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 23 disconnected
+[ 25971.966] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=16633 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 25971.973] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 23 disconnected
+[ 25972.076] AUDIT: Fri Apr 20 20:06:43 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=16633 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 27328.402] AUDIT: Fri Apr 20 20:29:20 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=17092 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 27336.073] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 27336.073] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 27336.073] (--) NVIDIA(GPU-0): 
+[ 27336.074] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 27336.074] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 27336.074] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 27336.074] (--) NVIDIA(GPU-0): 
+[ 27336.076] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 27336.076] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 27336.076] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 27336.076] (--) NVIDIA(GPU-0): 
+[ 27336.076] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 27336.077] (--) NVIDIA(GPU-0): 
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 27336.077] (--) NVIDIA(GPU-0): 
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 27336.077] (--) NVIDIA(GPU-0): 
+[ 27336.077] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 27336.078] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 27336.078] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 27336.078] (--) NVIDIA(GPU-0): 
+[ 27336.099] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 27336.904] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 27336.905] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 27336.905] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 27336.905] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 27336.905] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 27336.905] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 27336.905] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 27336.905] (II) NVIDIA(0):     Config Options in the README.
+[ 27336.956] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 27337.810] AUDIT: Fri Apr 20 20:41:19 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=17276 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 27338.004] AUDIT: Fri Apr 20 20:41:19 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=17277 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 27338.630] AUDIT: Fri Apr 20 20:41:20 2018: 1236: client 31 disconnected
+[ 27338.654] AUDIT: Fri Apr 20 20:41:20 2018: 1236: client 32 disconnected
+[ 27343.567] AUDIT: Fri Apr 20 20:41:25 2018: 1236: client 30 disconnected
+[ 27522.766] AUDIT: Fri Apr 20 20:44:24 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 27522.768] AUDIT: Fri Apr 20 20:44:24 2018: 1236: client 30 disconnected
+[ 28168.769] AUDIT: Fri Apr 20 20:55:10 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 28168.772] AUDIT: Fri Apr 20 20:55:10 2018: 1236: client 30 disconnected
+[ 29414.858] AUDIT: Fri Apr 20 21:15:56 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=18684 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 29417.548] AUDIT: Fri Apr 20 21:15:59 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=18691 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 29418.762] AUDIT: Fri Apr 20 21:16:00 2018: 1236: client 30 disconnected
+[ 29418.824] AUDIT: Fri Apr 20 21:16:00 2018: 1236: client 31 disconnected
+[ 30829.727] AUDIT: Fri Apr 20 21:39:31 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=19201 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 30837.200] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 30837.200] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 30837.200] (--) NVIDIA(GPU-0): 
+[ 30837.201] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 30837.201] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 30837.201] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 30837.201] (--) NVIDIA(GPU-0): 
+[ 30837.202] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 30837.202] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 30837.202] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 30837.202] (--) NVIDIA(GPU-0): 
+[ 30837.202] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 30837.203] (--) NVIDIA(GPU-0): 
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 30837.203] (--) NVIDIA(GPU-0): 
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 30837.203] (--) NVIDIA(GPU-0): 
+[ 30837.203] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 30837.204] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 30837.204] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 30837.204] (--) NVIDIA(GPU-0): 
+[ 30837.234] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 30838.037] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 30838.037] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 30838.037] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 30838.037] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 30838.037] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 30838.037] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 30838.038] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 30838.038] (II) NVIDIA(0):     Config Options in the README.
+[ 30838.101] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 30839.296] AUDIT: Fri Apr 20 22:32:31 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=19391 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 30839.504] AUDIT: Fri Apr 20 22:32:32 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=19397 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 30840.325] AUDIT: Fri Apr 20 22:32:32 2018: 1236: client 31 disconnected
+[ 30840.343] AUDIT: Fri Apr 20 22:32:32 2018: 1236: client 32 disconnected
+[ 30840.609] AUDIT: Fri Apr 20 22:32:33 2018: 1236: client 30 disconnected
+[ 31086.619] AUDIT: Fri Apr 20 22:36:39 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=19679 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31088.695] AUDIT: Fri Apr 20 22:36:41 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=19684 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31089.264] AUDIT: Fri Apr 20 22:36:41 2018: 1236: client 31 disconnected
+[ 31089.447] AUDIT: Fri Apr 20 22:36:42 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=19686 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31089.871] AUDIT: Fri Apr 20 22:36:42 2018: 1236: client 31 disconnected
+[ 31090.775] AUDIT: Fri Apr 20 22:36:43 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=19687 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31108.311] AUDIT: Fri Apr 20 22:37:00 2018: 1236: client 30 disconnected
+[ 31108.377] AUDIT: Fri Apr 20 22:37:00 2018: 1236: client 31 disconnected
+[ 31392.427] AUDIT: Fri Apr 20 22:41:45 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=19842 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31394.435] AUDIT: Fri Apr 20 22:41:47 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=19848 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 31404.809] AUDIT: Fri Apr 20 22:41:57 2018: 1236: client 30 disconnected
+[ 31404.863] AUDIT: Fri Apr 20 22:41:57 2018: 1236: client 31 disconnected
+[ 32142.724] AUDIT: Fri Apr 20 22:54:15 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=19978 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32149.897] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 32149.897] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 32149.897] (--) NVIDIA(GPU-0): 
+[ 32149.898] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 32149.899] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 32149.899] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 32149.899] (--) NVIDIA(GPU-0): 
+[ 32149.899] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 32149.899] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 32149.902] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 32149.902] (--) NVIDIA(GPU-0): 
+[ 32149.902] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 32149.902] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 32149.902] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 32149.902] (--) NVIDIA(GPU-0): 
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 32149.903] (--) NVIDIA(GPU-0): 
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 32149.903] (--) NVIDIA(GPU-0): 
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 32149.903] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 32149.903] (--) NVIDIA(GPU-0): 
+[ 32149.920] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 32150.720] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 32150.720] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 32150.720] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 32150.720] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 32150.720] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 32150.720] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 32150.720] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 32150.720] (II) NVIDIA(0):     Config Options in the README.
+[ 32150.770] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 32151.584] AUDIT: Sat Apr 21 16:44:09 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=20165 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32151.628] AUDIT: Sat Apr 21 16:44:09 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=20166 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32152.821] AUDIT: Sat Apr 21 16:44:10 2018: 1236: client 31 disconnected
+[ 32152.877] AUDIT: Sat Apr 21 16:44:10 2018: 1236: client 32 disconnected
+[ 32163.649] AUDIT: Sat Apr 21 16:44:21 2018: 1236: client 30 disconnected
+[ 32199.112] AUDIT: Sat Apr 21 16:44:56 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32199.118] AUDIT: Sat Apr 21 16:44:56 2018: 1236: client 8 disconnected
+[ 32199.119] AUDIT: Sat Apr 21 16:44:56 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32199.279] AUDIT: Sat Apr 21 16:44:57 2018: 1236: client 8 disconnected
+[ 32199.341] AUDIT: Sat Apr 21 16:44:57 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=20335 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32227.874] AUDIT: Sat Apr 21 16:45:25 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32227.884] AUDIT: Sat Apr 21 16:45:25 2018: 1236: client 30 disconnected
+[ 32227.885] AUDIT: Sat Apr 21 16:45:25 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32227.914] AUDIT: Sat Apr 21 16:45:25 2018: 1236: client 30 disconnected
+[ 32228.313] AUDIT: Sat Apr 21 16:45:26 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=20398 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32230.413] AUDIT: Sat Apr 21 16:45:28 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=20428 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32230.434] AUDIT: Sat Apr 21 16:45:28 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=20426 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32230.437] AUDIT: Sat Apr 21 16:45:28 2018: 1236: client 33 disconnected
+[ 32232.001] AUDIT: Sat Apr 21 16:45:29 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=20426 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32232.139] AUDIT: Sat Apr 21 16:45:29 2018: 1236: client 32 disconnected
+[ 32232.778] AUDIT: Sat Apr 21 16:45:30 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=20426 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32232.780] AUDIT: Sat Apr 21 16:45:30 2018: 1236: client 32 disconnected
+[ 32234.761] AUDIT: Sat Apr 21 16:45:32 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=20426 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32234.795] AUDIT: Sat Apr 21 16:45:32 2018: 1236: client 30 disconnected
+[ 32315.829] AUDIT: Sat Apr 21 16:46:53 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32315.833] AUDIT: Sat Apr 21 16:46:53 2018: 1236: client 31 disconnected
+[ 32315.834] AUDIT: Sat Apr 21 16:46:53 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32315.857] AUDIT: Sat Apr 21 16:46:53 2018: 1236: client 31 disconnected
+[ 32317.248] AUDIT: Sat Apr 21 16:46:55 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=20485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32317.274] AUDIT: Sat Apr 21 16:46:55 2018: 1236: client 34 connected from local host ( uid=0 gid=0 pid=20499 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32317.837] AUDIT: Sat Apr 21 16:46:55 2018: 1236: client 35 connected from local host ( uid=0 gid=0 pid=20485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32317.939] AUDIT: Sat Apr 21 16:46:55 2018: 1236: client 35 disconnected
+[ 32317.944] AUDIT: Sat Apr 21 16:46:55 2018: 1236: client 34 disconnected
+[ 32321.750] AUDIT: Sat Apr 21 16:46:59 2018: 1236: client 34 connected from local host ( uid=0 gid=0 pid=20485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32344.854] AUDIT: Sat Apr 21 16:47:22 2018: 1236: client 35 connected from local host ( uid=0 gid=0 pid=20485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 32344.856] AUDIT: Sat Apr 21 16:47:22 2018: 1236: client 35 disconnected
+[ 32953.388] AUDIT: Sat Apr 21 16:57:31 2018: 1236: client 33 disconnected
+[ 32953.393] AUDIT: Sat Apr 21 16:57:31 2018: 1236: client 32 disconnected
+[ 33007.066] AUDIT: Sat Apr 21 16:58:24 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33007.067] AUDIT: Sat Apr 21 16:58:24 2018: 1236: client 32 disconnected
+[ 33101.467] AUDIT: Sat Apr 21 16:59:59 2018: 1236: client 32 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33101.472] AUDIT: Sat Apr 21 16:59:59 2018: 1236: client 30 disconnected
+[ 33101.473] AUDIT: Sat Apr 21 16:59:59 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33101.500] AUDIT: Sat Apr 21 16:59:59 2018: 1236: client 30 disconnected
+[ 33101.643] AUDIT: Sat Apr 21 16:59:59 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=21031 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33103.077] AUDIT: Sat Apr 21 17:00:00 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=21046 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33103.087] AUDIT: Sat Apr 21 17:00:00 2018: 1236: client 35 connected from local host ( uid=0 gid=0 pid=21044 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33103.089] AUDIT: Sat Apr 21 17:00:00 2018: 1236: client 35 disconnected
+[ 33103.866] AUDIT: Sat Apr 21 17:00:01 2018: 1236: client 33 disconnected
+[ 33104.020] AUDIT: Sat Apr 21 17:00:01 2018: 1236: client 33 connected from local host ( uid=0 gid=0 pid=21044 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33104.370] AUDIT: Sat Apr 21 17:00:02 2018: 1236: client 35 connected from local host ( uid=0 gid=0 pid=21044 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33104.372] AUDIT: Sat Apr 21 17:00:02 2018: 1236: client 35 disconnected
+[ 33105.918] AUDIT: Sat Apr 21 17:00:03 2018: 1236: client 35 connected from local host ( uid=0 gid=0 pid=21044 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33105.934] AUDIT: Sat Apr 21 17:00:03 2018: 1236: client 30 disconnected
+[ 33143.124] AUDIT: Sat Apr 21 17:00:40 2018: 1236: client 33 disconnected
+[ 33143.129] AUDIT: Sat Apr 21 17:00:40 2018: 1236: client 35 disconnected
+[ 33145.683] AUDIT: Sat Apr 21 17:00:43 2018: 1236: client 8 disconnected
+[ 33177.141] AUDIT: Sat Apr 21 17:01:14 2018: 1236: client 23 disconnected
+[ 33787.044] AUDIT: Sat Apr 21 17:11:24 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33787.085] AUDIT: Sat Apr 21 17:11:24 2018: 1236: client 8 disconnected
+[ 33802.733] AUDIT: Sat Apr 21 17:11:40 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33802.734] AUDIT: Sat Apr 21 17:11:40 2018: 1236: client 8 disconnected
+[ 33872.264] AUDIT: Sat Apr 21 17:12:50 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 33872.266] AUDIT: Sat Apr 21 17:12:50 2018: 1236: client 8 disconnected
+[ 34179.037] AUDIT: Sat Apr 21 17:17:56 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 34179.039] AUDIT: Sat Apr 21 17:17:56 2018: 1236: client 8 disconnected
+[ 34239.138] AUDIT: Sat Apr 21 17:18:56 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 34239.140] AUDIT: Sat Apr 21 17:18:56 2018: 1236: client 8 disconnected
+[ 34630.941] AUDIT: Sat Apr 21 17:25:28 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2774 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 34630.943] AUDIT: Sat Apr 21 17:25:28 2018: 1236: client 8 disconnected
+[ 34671.322] AUDIT: Sat Apr 21 17:26:09 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2586 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 34671.324] AUDIT: Sat Apr 21 17:26:09 2018: 1236: client 8 disconnected
+[ 35339.342] AUDIT: Sat Apr 21 17:37:17 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=22727 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 35350.327] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[ 35350.327] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[ 35350.327] (--) NVIDIA(GPU-0): 
+[ 35350.327] (--) NVIDIA(GPU-0): LGD (DFP-0): connected
+[ 35350.327] (--) NVIDIA(GPU-0): LGD (DFP-0): Internal LVDS
+[ 35350.327] (--) NVIDIA(GPU-0): LGD (DFP-0): 330.0 MHz maximum pixel clock
+[ 35350.327] (--) NVIDIA(GPU-0): 
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[ 35350.328] (--) NVIDIA(GPU-0): 
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[ 35350.328] (--) NVIDIA(GPU-0): 
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[ 35350.328] (--) NVIDIA(GPU-0): 
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-4: 480.0 MHz maximum pixel clock
+[ 35350.328] (--) NVIDIA(GPU-0): 
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[ 35350.328] (--) NVIDIA(GPU-0): DFP-5: 480.0 MHz maximum pixel clock
+[ 35350.328] (--) NVIDIA(GPU-0): 
+[ 35353.253] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 35354.358] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 35354.358] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 35354.358] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 35354.358] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 35354.358] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 35354.358] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 35354.358] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 35354.358] (II) NVIDIA(0):     Config Options in the README.
+[ 35354.681] (--) synaptics: AlpsPS/2 ALPS DualPoint TouchPad: touchpad found
+[ 35355.106] AUDIT: Sat Apr 21 17:50:33 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=22893 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 35355.316] AUDIT: Sat Apr 21 17:50:33 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=22892 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 35359.561] AUDIT: Sat Apr 21 17:50:37 2018: 1236: client 23 disconnected
+[ 35359.736] AUDIT: Sat Apr 21 17:50:37 2018: 1236: client 30 disconnected
+[ 35360.474] AUDIT: Sat Apr 21 17:50:38 2018: 1236: client 8 disconnected
+[ 35970.678] AUDIT: Sat Apr 21 18:00:48 2018: 1236: client 34 disconnected
+[ 35970.864] AUDIT: Sat Apr 21 18:00:48 2018: 1236: client 31 disconnected
+[ 38146.072] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 8 connected from local host ( uid=0 gid=0 pid=2493 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 38146.079] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 32 disconnected
+[ 38146.099] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=2485 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 38146.306] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=23788 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 38146.306] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 30 disconnected
+[ 38146.308] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 23 disconnected
+[ 38146.320] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=23789 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 38146.321] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 23 disconnected
+[ 38146.357] AUDIT: Sat Apr 21 18:37:04 2018: 1236: client 23 connected from local host ( uid=0 gid=0 pid=23789 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39632.656] AUDIT: Sat Apr 21 19:01:50 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=24894 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39634.165] AUDIT: Sat Apr 21 19:01:52 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=24900 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39636.195] AUDIT: Sat Apr 21 19:01:54 2018: 1236: client 30 disconnected
+[ 39636.214] AUDIT: Sat Apr 21 19:01:54 2018: 1236: client 31 disconnected
+[ 39642.678] AUDIT: Sat Apr 21 19:02:00 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=24903 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39643.168] AUDIT: Sat Apr 21 19:02:01 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=24909 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39646.574] AUDIT: Sat Apr 21 19:02:04 2018: 1236: client 30 disconnected
+[ 39646.591] AUDIT: Sat Apr 21 19:02:04 2018: 1236: client 31 disconnected
+[ 39655.186] AUDIT: Sat Apr 21 19:02:13 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=24914 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39655.603] AUDIT: Sat Apr 21 19:02:13 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=24920 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39657.303] AUDIT: Sat Apr 21 19:02:15 2018: 1236: client 30 disconnected
+[ 39657.322] AUDIT: Sat Apr 21 19:02:15 2018: 1236: client 31 disconnected
+[ 39663.402] AUDIT: Sat Apr 21 19:02:21 2018: 1236: client 30 connected from local host ( uid=0 gid=0 pid=24930 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39663.899] AUDIT: Sat Apr 21 19:02:21 2018: 1236: client 31 connected from local host ( uid=0 gid=0 pid=24936 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 667
+[ 39665.575] AUDIT: Sat Apr 21 19:02:23 2018: 1236: client 30 disconnected
+[ 39665.596] AUDIT: Sat Apr 21 19:02:23 2018: 1236: client 31 disconnected
