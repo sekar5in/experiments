@@ -8,7 +8,7 @@ import smtplib
 msg = MIMEText("<h1> Welcome ! </h1> <h2> Lyricsopedia Users </h2> <p> We are happy to see you at this moment on our newsletter </p>", "html")
 
 msg['Subject'] = 'Welcome to LyricsOpedia'
-msg['From'] = 'ownhomautomation@gmail.com'
+msg['From'] = 'ownhomeautomation@gmail.com'
 msg['To'] = 'sekar5in@gmail.com'
 
 s = smtplib.SMTP('localhost')
