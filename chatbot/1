@@ -7,3 +7,28 @@ chatbot.train("chatterbot.corpus.english")
 
 # Get a response to an input statement
 chatbot.get_response("Hello, how are you today?")
+
+
+#!/usr/bin/python
+
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+
+#bot = ChatBot('Helper') #,trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
+
+bot = ChatBot(
+    'Helper',
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    logic_adapters=[
+        'chatterbot.logic.MathematicalEvaluation',
+        'chatterbot.logic.TimeLogicAdapter'
+    ],
+    database_uri='sqlite:///database.sqlite3'
+)
+trainer = ListTrainer(bot)
+
+# Train based on the english corpus
+bot.train("chatterbot.corpus.english")
+
+# Get a response to an input statement
+bot.get_response("Hello, how are you today?")

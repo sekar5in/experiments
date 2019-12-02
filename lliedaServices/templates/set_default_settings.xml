@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<set_default_settings>
+    <user>{{username}}</user>
+    <password>{{password}}</password>
+
+    {% if mailcert_disabled %}<mailcert_disabled>{{mailcert_disabled}}</mailcert_disabled>{% endif %}
+    {% if mailcert_inboxes %}<mailcert_inboxes>{{mailcert_inboxes}}</mailcert_inboxes>{% endif %}
+    {% if cert_name %}<cert_name>{{cert_name}}</cert_name>{% endif %}
+    {% if cert_name_id %}<cert_name_id>{{cert_name_id}}</cert_name_id>{% endif %}
+    {% if cert_lang %}<cert_lang>{{cert_lang}}</cert_lang>{% endif %}
+    {% if admin_mail %}<admin_mail>{{admin_mail}}</admin_mail>{% endif %}
+    {% if admin_cgi %}<admin_cgi>{{admin_cgi}}</admin_cgi>{% endif %}
+    {% if cert_type_subject %}<cert_type_subject>{{cert_type_subject}}</cert_type_subject>{% endif %}
+    {% if cert_type_subject_desc %}<cert_type_subject_desc>{{cert_type_subject_desc}}</cert_type_subject_desc>{% endif %}
+    {% if enable_from %}<enable_from>{{enable_from}}</enable_from>{% endif %}
+    {% if enable_prvs %}<enable_prvs>{{enable_prvs}}</enable_prvs>{% endif %}
+    {% if disable_resp_auto %}<disable_resp_auto>{{disable_resp_auto}}</disable_resp_auto>{% endif %}
+    {% if send_pdfcpy_from %}<send_pdfcpy_from>{{send_pdfcpy_from}}</send_pdfcpy_from>{% endif %}
+    {% if send_pdfcpy_to %}<send_pdfcpy_to>{{send_pdfcpy_to}}</send_pdfcpy_to>{% endif %}
+    {% if send_dealpdfcpy_from %}<send_dealpdfcpy_from>{{send_dealpdfcpy_from}}</send_dealpdfcpy_from>{% endif %}
+    {% if send_dealpdfcpy_to %}<send_dealpdfcpy_to>{{send_dealpdfcpy_to}}</send_dealpdfcpy_to>{% endif %}
+    {% if send_inboxpdfcpy_from %}<send_inboxpdfcpy_from>{{send_inboxpdfcpy_from}}</send_inboxpdfcpy_from>{% endif %}
+    {% if send_inboxpdfcpy_to %}<send_inboxpdfcpy_to>{{send_inboxpdfcpy_to}}</send_inboxpdfcpy_to>{% endif %}
+    {% if contract_expire_days %}<contract_expire_days>{{contract_expire_days}}</contract_expire_days>{% endif %}
+
+</set_default_settings>
