@@ -9,7 +9,7 @@
 # Notes           :This is proprietary software of i2i Telesource India Pvt Ltd.
 # Python_version  :3.6
 
-from lliedaServices.api import BaseApi, BaseResponse
+from lleidaServices.api import BaseApi, BaseResponse
 import os
 
 
@@ -111,7 +111,7 @@ class MailCertApi(BaseApi):
         else:
             custom_name = custom_name
         '''
-        print(custom_name)
+        # print(custom_name)
 
         file_download_path = os.path.join(custom_path, str(custom_name) + '.pdf')
         template_name = 'download_pdf.xml'

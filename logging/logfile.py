@@ -21,3 +21,4 @@ logging.debug('ADD :  {} + {} = {}'.format(num_1, num_2, add_result))
 sub_result = subtract(num_1, num_2)
 
 logging.debug('SUB :  {} - {} = {}'.format(num_1, num_2, sub_result))
+logging.debug(f'{num_1, num_2} ')

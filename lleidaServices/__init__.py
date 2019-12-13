@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
-# Title           :lliedaClient.py
+# Title           :lleidaClient.py
 # Description     :This will create a header for a python script.
 # Author          :Dhanasekara Pandian
 # Email           :dhana.s@contecuae.com
 # Date            :20191202
 # Version         :0.1
-# Usage           :python lliedaClient.py
+# Usage           :python lleidaClient.py
 # Notes           :This is proprietary software of i2i Telesource India Pvt Ltd.
 # Python_version  :3.6
 
 from .api.mail_cert import MailCertApi
-
+import logging
+import logging.config
 
 class PyLleida(object):
+
     def __init__(self, username, password):
         """
         Python wrapper for the Lleida.net API.
@@ -28,6 +30,8 @@ class PyLleida(object):
             username=username,
             password=password
         )
+        # logging.config.fileConfig(fname='conf/logger.ini', disable_existing_loggers=False)
+        # self.logger = logging.getLogger(__name__)
         self.mailcert = MailCertApi(config)
 
     def get_default_settings(self):

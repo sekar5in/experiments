@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
-# Title           :lliedaClient.py
+# Title           :lleidaClient.py
 # Description     :This will create a header for a python script.
 # Author          :Dhanasekara Pandian
 # Email           :dhana.s@contecuae.com
 # Date            :20191202
 # Version         :0.1
-# Usage           :python lliedaClient.py
+# Usage           :python lleidaClient.py
 # Notes           :This is proprietary software of i2i Telesource India Pvt Ltd.
 # Python_version  :3.6
 
