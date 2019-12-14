@@ -15,10 +15,16 @@ import sqlalchemy as db
 import re
 import logging
 import logging.config
+import configparser
 
 
-def db_connect(logger):
-    engine = db.create_engine("mysql://root:Passw0rd@localhost/db_lleida")
+def db_connect(logger, **kwargs):
+    db_user = kwargs.get('user')
+    db_pass = kwargs.get('password')
+    db_host = kwargs.get('host')
+    db_database = kwargs.get('database')
+    connect_str = str("mysql://" + db_user + ":" + db_pass + "@" + db_host + "/" + db_database)
+    engine = db.create_engine(connect_str)
     logger.info("database connection initialized")
     connection = engine.connect()
     metadata = db.MetaData()
@@ -148,11 +154,22 @@ def main():
     logger = logging.getLogger('lleidalogger')
     logger.info("Application Initialized")
     logger.info("All tasks are started")
+
+    # Config Parser from config.ini file
+    config = configparser.ConfigParser()
+    config.read('lleidaServices/conf/config.ini')
+
     # Object initialization
-    obj = PyLleida(username='sibikannan@menademo', password='demo123')
+    pylleida_username = config.get('PyLleida','username')
+    pylleida_password = config.get('PyLleida','password')
+    obj = PyLleida(username=pylleida_username, password=pylleida_password)
 
     # Database and Cursor Connection.
-    engine, connection, metadata = db_connect(logger)
+    db_user = config.get('mysqld','user')
+    db_password = config.get('mysqld','password')
+    db_host  = config.get('mysqld','host')
+    db_database = config.get('mysqld','database')
+    engine, connection, metadata = db_connect(logger, user=db_user, password=db_password, host=db_host, database=db_database)
 
     # Method to get default settings
     # resp = get_default_settings(logger, obj)
@@ -166,11 +183,11 @@ def main():
     tbl_event_record_insert(logger, obj, engine, connection, metadata)
 
     # Method of Document certificate generation process.
-    custom_cert_path = "/sites/narporul/evidences/certificates"
+    custom_cert_path = config.get('custom_cert_path', 'cert_path')
     doc_cert_generate(logger, obj, engine, connection, metadata, custom_cert_path)
 
     # Method of Document certificate generation process.
-    custom_addendum_path = "/sites/narporul/evidences/addendum"
+    custom_addendum_path = config.get('custom_addendum_path', 'addendum_path')
     doc_addendum_generate(logger, obj, engine, connection, metadata, custom_addendum_path)
     logger.info("All tasks are Completed")
 
