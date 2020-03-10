@@ -1,0 +1,22 @@
+Install mysql database
+pip install mysql-connector==2.1.4
+pip install passlib
+pip install flask-wtf
+pip install WTForms
+
+Database Creation
+------------------
+CREATE DATABASE marketer;
+
+CREATE TABLE users (uid INT(11) AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20), password VARCHAR(100), email VARCHAR(50), settings VARCHAR(32500), tracking VARCHAR(32500), rank INT(3));
+
+CREATE TABLE worldevent(occur DATE, event VARCHAR(200));
+
+CREATE TABLE mktrannouncements;
+
+CREATE TABLE srpanel ( sr_stock VARCHAR(20), sr_index VARCHAR(10), sr_real FLOAT(10,2), sr_s1 FLOAT(10,2),sr_r1 FLOAT(10,2),sr_s2 FLOAT(10,2),sr_r2 FLOAT(10,2),sr_s3 FLOAT(10,2),sr_r3 FLOAT(10,2));
+
+CREATE TABLE nsesymbol (nse_symbol VARCHAR(20), nse_company VARCHAR(100), nse_isincode VARCHAR(20), nse_industry VARCHAR(50));
+
+sqlcmd -S <servername> -U <username> -P <password> -d <dbname - TRY> -i insert.sql
+

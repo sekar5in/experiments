@@ -1,0 +1,107 @@
+Flask App Implmentation:
+
+Installing Flask
+
+Install python and keep the system ready
+
+Now we have to install Flask and several extensions
+
+preferred way to do this is to create a virtual environment
+
+Create a new  application folder microblog
+
+cd into the microblog folder and then create a virtual environment with the following command:
+
+For Python3 : $  python -m venv flask
+
+For Python2.X : $  easy_install virtualenv
+
+Create Flask under the virtual environment
+
+$ virtualenv flask
+
+Install the following extensions.
+
+$ flask/bin/pip install flask
+$ flask/bin/pip install flask-login
+$ flask/bin/pip install flask-openid
+$ flask/bin/pip install flask-mail
+$ flask/bin/pip install flask-sqlalchemy
+$ flask/bin/pip install sqlalchemy-migrate
+$ flask/bin/pip install flask-whooshalchemy
+$ flask/bin/pip install flask-wtf
+$ flask/bin/pip install flask-babel
+$ flask/bin/pip install guess_language
+$ flask/bin/pip install flipflop
+$ flask/bin/pip install coverage
+
+First Application Writings !!!
+
+After you cd to the microblog folder, let's create the basic folder structure for our application
+
+$ mkdir app
+$ mkdir app/static
+$ mkdir app/templates
+$ mkdir tmp
+
+
+app folder will be where we will put our application package
+static sub-folder is where we will store static files like images, javascripts, and cascading style sheets.
+templates sub-folder is obviously where our templates will go
+
+
+creating a simple init script for our app package (file app/__init__.py)
+
+##__init__.py file ##
+
+from flask import Flask
+
+app = Flask(__name__)
+from app import views
+
+###
+
+write our first view function (file app/views.py)
+
+### views.py file ##
+
+from app import app
+
+@app.route('/')
+@app.route('/index')
+def index():
+    return "Hello, World!"
+
+##
+
+call this script run.py, and put it in the root folder (under microblog)
+
+
+### run.py file under microblog ###
+
+#!flask/bin/python
+from app import app
+app.run(debug=True)
+
+##
+
+
+Change permissions.
+
+$ chmod a+x run.py
+
+./run.py
+
+
+After the server initializes it will listen on port 5000 waiting for connections. Now open up your web browser and enter the following URL in the address field
+
+http://localhost:5000
+
+Alternatively you can use the following URL
+
+http://localhost:5000/index
+
+
+When you are done playing with the server you can just hit Ctrl-C to stop it.
+
+================================

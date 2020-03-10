@@ -1,0 +1,14 @@
+Python Projects:
+
+1. ssh terminal in python using url
+
+2. Current Time display in zone based
+
+4. Converters for all possible functions
+
+5. All Reference URL to be displayed as table.
+
+6. OHSSA action plan to be automated.
+
+7. Birthday Reminders.
+

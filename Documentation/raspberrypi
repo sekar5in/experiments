@@ -1,0 +1,73 @@
+# This file related completely to Raspberry PI ideas, creation, experiments,configurations and development.
+
+Current Model of PI in use is : Raspberry PI 2 (B)  and Below is the network setting.
+
+root@raspberrypi:/home/pi# cat /etc/network/interfaces
+# Please note that this file is written to be used with dhcpcd.
+# For static IP, consult /etc/dhcpcd.conf and 'man dhcpcd.conf'.
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+allow-hotplug eth0
+iface eth0 inet static
+address 192.168.1.50
+netmask 255.255.255.0
+network 192.168.1.0
+broadcast 192.168.1.255
+gateway 192.168.1.1
+
+#auto wlan0
+#allow-hotplug wlan0
+#iface wlan0 inet static
+#   address 192.168.1.60
+#   netmask 255.255.255.0
+#   network 192.168.1.0
+#   broadcast 192.168.1.255
+#   gateway 192.168.1.1
+#   wpa-ssid "wireworld"
+#   wpa-psk "RkmB0ys@123"
+#   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+        wpa-ssid "wireworld"
+        wpa-psk "RkmB0ys@123"
+        metric 20
+        up route add -net 192.168.1.0/24 gw 192.168.1.1 dev wlan0
+
+iface default inet dhcp
+
+post-up route add default gw 192.168.1.1 eth0
+pre-down route del default gw 192.168.1.1 eth0
+
+
+root@raspberrypi:/home/pi#
+
+
+root@raspberrypi:/# cat /etc/issue
+Raspbian GNU/Linux 8 \n \l
+
+root@raspberrypi:/#
+
+root@raspberrypi:/etc/network# cat /proc/version
+Linux version 4.1.7+ (dc4@dc4-XPS13-9333) (gcc version 4.8.3 20140303 (prerelease) (crosstool-NG linaro-1.13.1+bzr2650 - Linaro GCC 2014.03) ) #817 PREEMPT Sat Sep 19 15:25:36 BST 2015
+root@raspberrypi:/etc/network# lsb_release -a
+No LSB modules are available.
+Distributor ID: Raspbian
+Description:    Raspbian GNU/Linux 8.0 (jessie)
+Release:        8.0
+Codename:       jessie
+root@raspberrypi:/etc/network# cat /etc/os-release
+PRETTY_NAME="Raspbian GNU/Linux 8 (jessie)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="8"
+VERSION="8 (jessie)"
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+root@raspberrypi:/etc/network#

@@ -1,0 +1,43 @@
+Regular Expressions.
+######################
+
+Identifiers:
+===========
+
+\d	Any number
+\D	Anything but a number
+\s	space
+\S	Anything but a space
+\w	any character
+\W	Anything but a character
+. 	Any Character except for a newline
+\b	The whiterspace around words
+\.	a period
+
+Modifiers:
+=========
+
+{1,3}	we're expecting 1-3 \d{1-3}
++		Match 1 or More
+?		Match 0 or More
+*		Match 0 or More
+$		Match the end of a string
+^		Matching the beginning of  a string
+|		Either or
+[]		Range of "Variance"
+[x]		Expecting "x" amount
+
+White Space Characters:
+=====================
+
+\n	new line
+\s	space
+\t 	tab
+\e	escape
+\f 	form_feed
+\r 	return
+
+
+DON't FORGET! to escape (\)to use them.
+
+. + * ? [ ] $ ^ ( ) { } | \

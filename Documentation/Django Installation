@@ -1,0 +1,59 @@
+Install Django.
+
+python -- version
+easy_install --version
+easy_install or pip install django
+
+Install older version.
+
+pip install django==1.9
+
+verify
+
+django-admin --version
+
+Start the project:
+
+django-admin startproject website
+
+Change into project :  cd website
+
+Start th Development server.
+
+python manage.py runserver
+
+http://lcoalhost:8000/
+
+Start the app.
+
+python manage.py startapp music
+
+python manage.py migrate
+
+python manage.py makemigrations <music>
+
+python manage.py sqlmigrate <music> <001>
+
+python manage.py migrate
+
+python manage.py shell  (interactive django shell)
+
+	Album.objects.all()
+	
+	Album.objects.filter(id=1)
+
+	Album.objects.filter(artist__startswith='Taylor')
+	
+
+python manage.py createsuperuser  --> Create Super user for ULR admin access http://localhost:8000/admin/
+
+	Change the admin.py to import Album and register the model.
+	
+			from django.contrib import admin
+			from .models import Album
+
+			admin.site.register(Album)
+
+Now it will show the Album in admin interface to manage.
+
+
