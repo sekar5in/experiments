@@ -40,7 +40,7 @@ class Window(Frame):
         menu.add_cascade(label='Edit', menu=edit)
 
     def showImg(self):
-        load = Image.open('pic.jpeg')
+        load = Image.open('Hari.jpeg')
         render = ImageTk.PhotoImage(load)
         img = Label(self, image=render)
         img.image = render
